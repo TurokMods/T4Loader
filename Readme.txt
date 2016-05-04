@@ -1,4 +1,4 @@
-Block header types (in the order that I discovered and named them):
+Block header types (in the order that I discovered them):
 
 0x82 (Type A) - 1 byte unknown, 2 byte data size,                   1 byte name length, name string
 0x42 (Type B) - 1 byte unknown, 1 byte data size,                   1 byte name length, name string
