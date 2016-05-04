@@ -1,0 +1,1117 @@
+Program analyzed every .atr file in the game and encountered 1107 block types.
+Once I find out how to know if a block has child blocks programmatically there
+will be more block types and more block header types.
+
+This data can be used to learn more about the .ATI/.ATR formats, and more about
+how to change the behavior of the game through these formats.
+
+-------------------------------------------------------------------------------
+||          BLOCK ID           ||   BLOCK SIZE / SIZE RANGE  || USAGE  COUNT ||
+-------------------------------------------------------------------------------
+[                         ACTOR][Min:       0 B Max  156349 B] Used  2033 times
+[                       VERSION][Constant:                4 B] Used  2028 times
+[                    ACTOR_CODE][Min:       0 B Max      25 B] Used  2003 times
+[               ACTOR_VARIABLES][Min:       0 B Max    8028 B] Used  2002 times
+[                          TYPE][Min:       0 B Max       4 B] Used  1982 times
+[                       GRAVITY][Constant:                4 B] Used  1982 times
+[                       TOUCHES][Min:       0 B Max       4 B] Used  1982 times
+[                      FRICTION][Constant:                4 B] Used  1982 times
+[                     MAXHEALTH][Constant:                4 B] Used  1982 times
+[                       DENSITY][Constant:                4 B] Used  1982 times
+[                         SPINY][Constant:                4 B] Used  1982 times
+[                      COLLIDES][Min:       0 B Max       4 B] Used  1982 times
+[                          MASS][Constant:                4 B] Used  1982 times
+[                        HEALTH][Constant:                4 B] Used  1982 times
+[                    ELASTICITY][Constant:                4 B] Used  1982 times
+[                      SPINMINX][Constant:                4 B] Used  1981 times
+[                       EMBARKS][Constant:                1 B] Used  1981 times
+[              BOUNCERELATIVETO][Constant:                1 B] Used  1981 times
+[                        SPINAX][Constant:                4 B] Used  1981 times
+[               BOUNCEMAXSPEEDZ][Constant:                4 B] Used  1981 times
+[              BOUNCEMAXSPEEDZ2][Constant:                4 B] Used  1981 times
+[                         AD_TD][Constant:                4 B] Used  1981 times
+[                       SPINCEZ][Constant:                4 B] Used  1981 times
+[                          HOLD][Constant:                4 B] Used  1981 times
+[                      BOUNCEZ2][Constant:                4 B] Used  1981 times
+[                        SPINIX][Constant:                4 B] Used  1981 times
+[                          INTE][Constant:                4 B] Used  1981 times
+[                       SPINFTY][Constant:                4 B] Used  1981 times
+[                        BSPEED][Constant:                4 B] Used  1981 times
+[                        SMFALL][Constant:                4 B] Used  1981 times
+[                         SPINX][Constant:                4 B] Used  1981 times
+[                         SPINZ][Constant:                4 B] Used  1981 times
+[                 PATHENDBOUNCE][Constant:                4 B] Used  1981 times
+[                     SPINMAXSX][Constant:                4 B] Used  1981 times
+[                BOUNCEADJUSTX2][Constant:                4 B] Used  1981 times
+[                       SPINSTY][Constant:                4 B] Used  1981 times
+[                        LSPEED][Constant:                4 B] Used  1981 times
+[                       SPINCEY][Constant:                4 B] Used  1981 times
+[                       IGNORES][Min:       0 B Max       4 B] Used  1981 times
+[                       SPINFTZ][Constant:                4 B] Used  1981 times
+[                        VSPEED][Constant:                4 B] Used  1981 times
+[                       SPINAXT][Constant:                1 B] Used  1981 times
+[                          SMJH][Constant:                4 B] Used  1981 times
+[                       SPINAZT][Constant:                1 B] Used  1981 times
+[                      SPINMINZ][Constant:                4 B] Used  1981 times
+[                        SPINAZ][Constant:                4 B] Used  1981 times
+[                        MAXSAG][Constant:                4 B] Used  1981 times
+[                       SAGTIME][Constant:                4 B] Used  1981 times
+[                         SAGRT][Constant:                4 B] Used  1981 times
+[                        TIPRTX][Constant:                4 B] Used  1981 times
+[                      TIPTYPEZ][Constant:                1 B] Used  1981 times
+[                      BOUNCEES][Constant:                1 B] Used  1981 times
+[             PATHRELEASE1SPEED][Constant:                4 B] Used  1981 times
+[                       SPINFTX][Constant:                4 B] Used  1981 times
+[                     SPINMAXSZ][Constant:                4 B] Used  1981 times
+[                      TIPTYPEX][Constant:                1 B] Used  1981 times
+[                      MAXTIPX1][Constant:                4 B] Used  1981 times
+[                      MAXTIPX2][Constant:                4 B] Used  1981 times
+[                        PSPEED][Constant:                4 B] Used  1981 times
+[                   BOUNCEKIND2][Constant:                1 B] Used  1981 times
+[                BOUNCEADJUSTZ2][Constant:                4 B] Used  1981 times
+[                       TIPDOMX][Constant:                6 B] Used  1981 times
+[                         SAGRD][Constant:                4 B] Used  1981 times
+[                      MAXTIPZ1][Constant:                4 B] Used  1981 times
+[                 BOUNCEADJUSTX][Constant:                4 B] Used  1981 times
+[                      TIPTIMEZ][Constant:                4 B] Used  1981 times
+[                        HSTIME][Constant:                4 B] Used  1981 times
+[                        TIPRTZ][Constant:                4 B] Used  1981 times
+[                      RECHARGE][Constant:                4 B] Used  1981 times
+[                          HIDE][Constant:                4 B] Used  1981 times
+[                       SPINAYL][Constant:                4 B] Used  1981 times
+[                        TIPRDZ][Constant:                4 B] Used  1981 times
+[                   EMBARKDELAY][Constant:                4 B] Used  1981 times
+[                     INVISIBLE][Min:       0 B Max       5 B] Used  1981 times
+[                    DISEMBARKS][Constant:                1 B] Used  1981 times
+[                      SPINMAXY][Constant:                4 B] Used  1981 times
+[                  PATHFRICTION][Constant:                4 B] Used  1981 times
+[                      PATHPUSH][Constant:                4 B] Used  1981 times
+[            PATHSLIDEWARPSBACK][Constant:                6 B] Used  1981 times
+[                  SLIDESONPATH][Constant:                6 B] Used  1981 times
+[                         AD_TY][Constant:                1 B] Used  1981 times
+[                    BOUNCEKIND][Constant:                1 B] Used  1981 times
+[                      TIPTIMEX][Constant:                4 B] Used  1981 times
+[                 BOUNCEADJUSTZ][Constant:                4 B] Used  1981 times
+[                      MAXTIPZ2][Constant:                4 B] Used  1981 times
+[                       BOUNCEZ][Constant:                4 B] Used  1981 times
+[                    TIPTORQUEX][Constant:                4 B] Used  1981 times
+[                        SPINIY][Constant:                4 B] Used  1981 times
+[                 BOUNCEADJUSTY][Constant:                4 B] Used  1981 times
+[                BOUNCEMAXSPEED][Constant:                4 B] Used  1981 times
+[                DISEMBARKDELAY][Constant:                4 B] Used  1981 times
+[                BOUNCEADJUSTY2][Constant:                4 B] Used  1981 times
+[                      BOUNCEX2][Constant:                4 B] Used  1981 times
+[              BOUNCEMAXSPEEDX2][Constant:                4 B] Used  1981 times
+[              BOUNCEMAXSPEEDY2][Constant:                4 B] Used  1981 times
+[                     MINDAMAGE][Constant:                4 B] Used  1981 times
+[               BOUNCEMAXSPEEDY][Constant:                4 B] Used  1981 times
+[               BOUNCEMAXSPEEDX][Constant:                4 B] Used  1981 times
+[                          SMJD][Constant:                4 B] Used  1981 times
+[                       BOUNCEY][Constant:                4 B] Used  1981 times
+[                       SPINSTX][Constant:                4 B] Used  1981 times
+[                      BOUNCEY2][Constant:                4 B] Used  1981 times
+[                       SAGTYPE][Constant:                1 B] Used  1981 times
+[                        FSPEED][Constant:                4 B] Used  1981 times
+[                      SPINMINY][Constant:                4 B] Used  1981 times
+[                      SPINMAXZ][Constant:                4 B] Used  1981 times
+[                         AD_RT][Constant:                4 B] Used  1981 times
+[                        SMSTEP][Constant:                4 B] Used  1981 times
+[                        RSPEED][Constant:                4 B] Used  1981 times
+[                       SAGMASS][Constant:                4 B] Used  1981 times
+[                         AD_TI][Constant:                6 B] Used  1981 times
+[                      COUNTERS][Constant:                1 B] Used  1981 times
+[                     SPINMAXSY][Constant:                4 B] Used  1981 times
+[                      SPINMAXX][Constant:                4 B] Used  1981 times
+[               BOUNCEMAXSPEED2][Constant:                4 B] Used  1981 times
+[                        SAGDOM][Constant:                6 B] Used  1981 times
+[                       TIPDOMZ][Constant:                6 B] Used  1981 times
+[                        SPINIZ][Constant:                4 B] Used  1981 times
+[                        TIPRDX][Constant:                4 B] Used  1981 times
+[                       SPINSTZ][Constant:                4 B] Used  1981 times
+[                       SPINCEX][Constant:                4 B] Used  1981 times
+[                     FREEPATHY][Constant:                6 B] Used  1981 times
+[                        SMTYPE][Constant:                1 B] Used  1981 times
+[                        SPINAY][Constant:                4 B] Used  1981 times
+[                        TSPEED][Constant:                4 B] Used  1981 times
+[             PATHRELEASE2SPEED][Constant:                4 B] Used  1981 times
+[                        TURNON][Min:       0 B Max       6 B] Used  1981 times
+[                       BOUNCEX][Constant:                4 B] Used  1981 times
+[                    TIPTORQUEZ][Constant:                4 B] Used  1981 times
+[             BOUNCERELATIVETO2][Constant:                1 B] Used  1981 times
+[                       OVERSAG][Constant:                4 B] Used  1981 times
+[                        RELROT][Min:       0 B Max       5 B] Used  1981 times
+[                         FLEXF][Constant:                4 B] Used  1981 times
+[                         A_MDD][Constant:                4 B] Used  1980 times
+[                         A_NDD][Constant:                4 B] Used  1980 times
+[                         AD_DK][Constant:                1 B] Used  1980 times
+[                         AD_ED][Constant:                4 B] Used  1980 times
+[                         A_TDK][Min:       0 B Max       2 B] Used  1980 times
+[                         DRAGE][Constant:                4 B] Used  1980 times
+[                         A_ALP][Constant:                4 B] Used  1979 times
+[                         A_HIF][Constant:                1 B] Used  1979 times
+[                         A_RNF][Constant:                1 B] Used  1979 times
+[                          A_KS][Constant:                1 B] Used  1979 times
+[                          A_MT][Min:       0 B Max       4 B] Used  1979 times
+[                         AP_DC][Constant:                1 B] Used  1979 times
+[                        A_FENM][Constant:                4 B] Used  1979 times
+[                         A_SON][Min:       0 B Max       4 B] Used  1979 times
+[                         A_KSF][Constant:                1 B] Used  1979 times
+[                        A_SOFF][Min:       0 B Max       2 B] Used  1979 times
+[                       SPINAXL][Constant:                4 B] Used  1979 times
+[                       SPINAZL][Constant:                4 B] Used  1979 times
+[                         A_KSK][Constant:                1 B] Used  1979 times
+[                       SAGMINS][Constant:                4 B] Used  1979 times
+[                          AU_F][Constant:                1 B] Used  1979 times
+[                         AP_EC][Constant:                1 B] Used  1979 times
+[                         A_HII][Constant:                1 B] Used  1979 times
+[                        A_FEXS][Constant:                4 B] Used  1979 times
+[                          AU_D][Constant:                4 B] Used  1979 times
+[                      BOUNCENP][Constant:                4 B] Used  1979 times
+[                       SPINAZF][Constant:                4 B] Used  1979 times
+[                      BOUNCENK][Constant:                1 B] Used  1979 times
+[                          A_FL][Constant:                1 B] Used  1979 times
+[                     RIGIDBODY][Constant:                6 B] Used  1978 times
+[                        SMWALL][Constant:                4 B] Used  1978 times
+[                          DTYP][Constant:                1 B] Used  1978 times
+[                          DSTA][Min:       0 B Max       5 B] Used  1978 times
+[                          DCOL][Min:       0 B Max       6 B] Used  1978 times
+[                          DLIF][Constant:                4 B] Used  1978 times
+[                          DPOW][Constant:                4 B] Used  1978 times
+[                          DSIZ][Constant:                4 B] Used  1977 times
+[                          DNUM][Constant:                1 B] Used  1977 times
+[                          DDIS][Constant:                4 B] Used  1977 times
+[                          A_GN][Constant:                1 B] Used  1963 times
+[                          DEFT][Constant:               33 B] Used  1959 times
+[                         A_SHS][Constant:                4 B] Used  1953 times
+[                         A_SHW][Constant:                4 B] Used  1953 times
+[                         A_SHH][Constant:                4 B] Used  1953 times
+[                         A_SHL][Constant:                4 B] Used  1953 times
+[               ACTOR_MESH_AXIS][Constant:               12 B] Used  1934 times
+[                    ACTOR_MESH][Min:       0 B Max     145 B] Used  1934 times
+[             ACTOR_MESH_BOUNDS][Constant:               36 B] Used  1904 times
+[                          AU_A][Constant:                4 B] Used  1860 times
+[                       DUMMIES][Min:       0 B Max       6 B] Used  1802 times
+[            SHALLOWWATERHEIGHT][Constant:                4 B] Used   646 times
+[                   TUROKAITYPE][Constant:                1 B] Used   646 times
+[               VISIONEYEHEIGHT][Constant:                4 B] Used   646 times
+[                   AIMATHEIGHT][Constant:                4 B] Used   645 times
+[                ACCESSORYNAME2][Min:       0 B Max      60 B] Used   645 times
+[                      PSMACCEL][Constant:                4 B] Used   645 times
+[                      AIRADIUS][Constant:                4 B] Used   645 times
+[                      MPSONOFF][Constant:                6 B] Used   645 times
+[                        MPSNEA][Constant:                4 B] Used   645 times
+[                        MPSSCA][Constant:                4 B] Used   645 times
+[               ACCESSORYPOINT1][Min:       0 B Max      12 B] Used   645 times
+[                ACCESSORYNAME1][Min:       0 B Max      68 B] Used   645 times
+[               ACCESSORYPOINT3][Constant:                1 B] Used   645 times
+[                      PSMDECEL][Constant:                4 B] Used   645 times
+[                ACCESSORYNAME3][Constant:                1 B] Used   645 times
+[                        PSMPOS][Constant:                4 B] Used   645 times
+[                    POINTVALUE][Constant:                4 B] Used   645 times
+[                        MPSFAR][Constant:                4 B] Used   645 times
+[                         LTARG][Min:       0 B Max       6 B] Used   645 times
+[                        MPSMID][Constant:                4 B] Used   645 times
+[                      PSMONOFF][Min:       0 B Max       5 B] Used   645 times
+[               ACCESSORYPOINT2][Min:       0 B Max      12 B] Used   645 times
+[                        FDMULT][Constant:                4 B] Used   641 times
+[                     IGNORENAV][Min:       0 B Max       5 B] Used   637 times
+[                          COLS][Min:       0 B Max    2508 B] Used   554 times
+[             ACTOR_TEXTURE_SET][Min:       0 B Max    2000 B] Used   533 times
+[                         HOTPS][Min:       0 B Max     939 B] Used   453 times
+[                         LINKS][Min:       0 B Max    7985 B] Used   444 times
+[              ACTOR_PROPERTIES][Min:       0 B Max     214 B] Used   419 times
+[                         MODES][Min:       0 B Max   20799 B] Used   375 times
+[                    LINK_LISTS][Min:       0 B Max  121253 B] Used   323 times
+[                        GRND_Y][Constant:                4 B] Used   313 times
+[                    CONEVISION][Min:       0 B Max       5 B] Used   275 times
+[                   SIGHTRADIUS][Constant:                4 B] Used   275 times
+[                  IGNOREPLAYER][Min:       0 B Max       5 B] Used   275 times
+[                       LEASHED][Min:       0 B Max       6 B] Used   274 times
+[          LOSTCONTACTRESETTIME][Constant:                4 B] Used   274 times
+[                   LEASHRADIUS][Constant:                4 B] Used   274 times
+[                   SOUNDRADIUS][Constant:                4 B] Used   274 times
+[               LONGRANGECHANCE][Constant:                1 B] Used   274 times
+[             MEDIUMRANGECHANCE][Constant:                1 B] Used   274 times
+[                  TURNINGSPEED][Constant:                4 B] Used   274 times
+[                 MOVEMENTSPEED][Constant:                4 B] Used   274 times
+[                CLOSERANGEDIST][Constant:                4 B] Used   274 times
+[              CLOSERANGECHANCE][Constant:                1 B] Used   274 times
+[               MEDIUMRANGEDIST][Constant:                4 B] Used   274 times
+[            CROUCHATTACKCHANCE][Constant:                1 B] Used   274 times
+[                 LONGRANGEDIST][Constant:                4 B] Used   274 times
+[                   NEARTIPZFIX][Constant:                4 B] Used   273 times
+[                  HEADPITCHMIN][Constant:                4 B] Used   273 times
+[               NEARTIPPITCHMIN][Constant:                4 B] Used   273 times
+[                  CRITKAMIKAZE][Constant:                1 B] Used   273 times
+[                 BACKPITCHAXIS][Constant:                1 B] Used   273 times
+[              NEARTIPPITCHAXIS][Constant:                1 B] Used   273 times
+[                  WEAPONRANGE5][Constant:                4 B] Used   273 times
+[                    PITCHSPEED][Constant:                4 B] Used   273 times
+[                 MAXCOVERSHOTS][Constant:                1 B] Used   273 times
+[                  WEAPONPOINT5][Min:       0 B Max       8 B] Used   273 times
+[                  TIPPITCHCORR][Constant:                4 B] Used   273 times
+[                   WEAPONNAME3][Min:       0 B Max      66 B] Used   273 times
+[               NEARBASEYAWAXIS][Constant:                1 B] Used   273 times
+[                  WEAPONRANGE3][Constant:                4 B] Used   273 times
+[                       CANSWIM][Min:       0 B Max       5 B] Used   273 times
+[                    BACKYAWMAX][Constant:                4 B] Used   273 times
+[                   USEPRIMARY4][Min:       0 B Max       5 B] Used   273 times
+[       DAMAGELOGICCHANGEAMOUNT][Constant:                4 B] Used   273 times
+[                   COVERRADIUS][Constant:                4 B] Used   273 times
+[                   NEARTIPXFIX][Constant:                4 B] Used   273 times
+[                     TIPYAWMAX][Constant:                4 B] Used   273 times
+[                   TIPPITCHMAX][Constant:                4 B] Used   273 times
+[                 HEADPITCHAXIS][Constant:                1 B] Used   273 times
+[                       TIPZFIX][Constant:                4 B] Used   273 times
+[              NEARTIPBONEINDEX][Constant:                1 B] Used   273 times
+[                  INITIALSTATE][Min:       0 B Max      10 B] Used   273 times
+[              NEARBASEPITCHMIN][Constant:                4 B] Used   273 times
+[                   NEARTIPYFIX][Constant:                4 B] Used   273 times
+[             PRONEATTACKCHANCE][Constant:                1 B] Used   273 times
+[                    BACKYAWMIN][Constant:                4 B] Used   273 times
+[              NEARBASEPITCHMAX][Constant:                4 B] Used   273 times
+[             FASTSWIMMINGSPEED][Constant:                4 B] Used   273 times
+[                 HEADPITCHCORR][Constant:                4 B] Used   273 times
+[                  BASEPITCHMAX][Constant:                4 B] Used   273 times
+[                   TIPPITCHMIN][Constant:                4 B] Used   273 times
+[                   BASEYAWAXIS][Constant:                1 B] Used   273 times
+[                  WEAPONRANGE2][Constant:                4 B] Used   273 times
+[                     CRITPRONE][Constant:                1 B] Used   273 times
+[             LOGICATTACKCHANCE][Constant:                1 B] Used   273 times
+[                  NEARBASEXFIX][Constant:                4 B] Used   273 times
+[                 HEADBONEINDEX][Constant:                1 B] Used   273 times
+[                  WEAPONPOINT4][Min:       0 B Max      12 B] Used   273 times
+[                   USEPRIMARY3][Constant:                6 B] Used   273 times
+[                  RESETWHENDIE][Min:       0 B Max       5 B] Used   273 times
+[                   USEPRIMARY2][Constant:                6 B] Used   273 times
+[                  TIPBONEINDEX][Constant:                1 B] Used   273 times
+[                 REGIONTARGETS][Constant:                6 B] Used   273 times
+[                      CANCLIMB][Min:       0 B Max       5 B] Used   273 times
+[                     ALWAYSRUN][Min:       0 B Max       5 B] Used   273 times
+[                   HEADYAWAXIS][Constant:                1 B] Used   273 times
+[                CLIMBENDHEIGHT][Constant:                4 B] Used   273 times
+[                 MINCOVERSHOTS][Constant:                1 B] Used   273 times
+[                  BASEPITCHMIN][Constant:                4 B] Used   273 times
+[                    WANTSCOVER][Min:       0 B Max       5 B] Used   273 times
+[              LOGICCOVERCHANCE][Constant:                1 B] Used   273 times
+[               ATTACKRESETTIME][Constant:                4 B] Used   273 times
+[             FEARFULTHRESHHOLD][Constant:                4 B] Used   273 times
+[                NEARBASEYAWMIN][Constant:                4 B] Used   273 times
+[             SLOWSWIMMINGSPEED][Constant:                4 B] Used   273 times
+[            CRITICALTHRESHHOLD][Constant:                4 B] Used   273 times
+[                     CRITCOVER][Constant:                1 B] Used   273 times
+[                  WEAPONPOINT3][Min:       0 B Max      15 B] Used   273 times
+[                  CRITNOCHANGE][Constant:                1 B] Used   273 times
+[                      CRITFLEE][Constant:                1 B] Used   273 times
+[                   CRITRETREAT][Constant:                1 B] Used   273 times
+[                 CRITSURRENDER][Constant:                1 B] Used   273 times
+[                   WEAPONNAME2][Min:       0 B Max      63 B] Used   273 times
+[             NEARBASEBONEINDEX][Constant:                1 B] Used   273 times
+[                   WEAPONNAME4][Min:       0 B Max      53 B] Used   273 times
+[             SLOWMOVEMENTSPEED][Constant:                4 B] Used   273 times
+[                  WEAPONRANGE4][Constant:                4 B] Used   273 times
+[                 NEARTIPYAWMAX][Constant:                4 B] Used   273 times
+[                  HEADPITCHMAX][Constant:                4 B] Used   273 times
+[                    HEADYAWMAX][Constant:                4 B] Used   273 times
+[                  TIPPITCHAXIS][Constant:                1 B] Used   273 times
+[                      BACKZFIX][Constant:                4 B] Used   273 times
+[                  BACKPITCHMAX][Constant:                4 B] Used   273 times
+[                  NEARBASEYFIX][Constant:                4 B] Used   273 times
+[               USETAILTRACKING][Min:       0 B Max       5 B] Used   273 times
+[                 BASEBONEINDEX][Constant:                1 B] Used   273 times
+[                      BACKXFIX][Constant:                4 B] Used   273 times
+[                       TIPYFIX][Constant:                4 B] Used   273 times
+[                 BASEPITCHAXIS][Constant:                1 B] Used   273 times
+[                  WEAPONRANGE1][Constant:                4 B] Used   273 times
+[                      BASEYFIX][Constant:                4 B] Used   273 times
+[                      BACKYFIX][Constant:                4 B] Used   273 times
+[                      BASEZFIX][Constant:                4 B] Used   273 times
+[                    BASEYAWMAX][Constant:                4 B] Used   273 times
+[       LOGICINITIALCOVERCHANCE][Constant:                1 B] Used   273 times
+[                NEARBASEYAWMAX][Constant:                4 B] Used   273 times
+[                 BASEPITCHCORR][Constant:                4 B] Used   273 times
+[                   WEAPONNAME5][Min:       0 B Max      45 B] Used   273 times
+[                  NEARBASEZFIX][Constant:                4 B] Used   273 times
+[             NEARBASEPITCHCORR][Constant:                4 B] Used   273 times
+[             NEARBASEPITCHAXIS][Constant:                1 B] Used   273 times
+[               NEARTIPPITCHMAX][Constant:                4 B] Used   273 times
+[              NEARTIPPITCHCORR][Constant:                4 B] Used   273 times
+[                    TIPYAWAXIS][Constant:                1 B] Used   273 times
+[                     TIPYAWMIN][Constant:                4 B] Used   273 times
+[             USEGROUNDTRACKING][Min:       0 B Max       6 B] Used   273 times
+[                   BACKYAWAXIS][Constant:                1 B] Used   273 times
+[                   WEAPONNAME1][Min:       0 B Max      70 B] Used   273 times
+[                  WEAPONPOINT1][Min:       0 B Max      12 B] Used   273 times
+[                       TIPXFIX][Constant:                4 B] Used   273 times
+[                CANMONKEYCLIMB][Min:       0 B Max       5 B] Used   273 times
+[                      HEADYFIX][Constant:                4 B] Used   273 times
+[               USEHEADTRACKING][Min:       0 B Max       5 B] Used   273 times
+[                      ISSNIPER][Constant:                6 B] Used   273 times
+[               LEASHEDTOREGION][Min:       0 B Max       5 B] Used   273 times
+[                    BASEYAWMIN][Constant:                4 B] Used   273 times
+[                  WEAPONPOINT2][Min:       0 B Max      16 B] Used   273 times
+[                   PROVOKEONLY][Min:       0 B Max       5 B] Used   273 times
+[                   USEPRIMARY1][Min:       0 B Max       5 B] Used   273 times
+[                      HEADXFIX][Constant:                4 B] Used   273 times
+[                 BACKBONEINDEX][Constant:                1 B] Used   273 times
+[                    HEADYAWMIN][Constant:                4 B] Used   273 times
+[                      CANCRAWL][Min:       0 B Max       5 B] Used   273 times
+[      LOGICINITIALATTACKCHANCE][Constant:                1 B] Used   273 times
+[                      HEADZFIX][Constant:                4 B] Used   273 times
+[                  BACKPITCHMIN][Constant:                4 B] Used   273 times
+[                   USEPRIMARY5][Constant:                6 B] Used   273 times
+[                NEARTIPYAWAXIS][Constant:                1 B] Used   273 times
+[                 NEARTIPYAWMIN][Constant:                4 B] Used   273 times
+[                 BACKPITCHCORR][Constant:                4 B] Used   273 times
+[                      BASEXFIX][Constant:                4 B] Used   273 times
+[                      SXZANGLE][Constant:                4 B] Used   272 times
+[                       SYANGLE][Constant:                4 B] Used   272 times
+[                         WTIME][Constant:                4 B] Used   271 times
+[                        RDELAY][Constant:                4 B] Used   271 times
+[                        WPTIME][Constant:                4 B] Used   271 times
+[                      IGNALBOX][Min:       0 B Max       5 B] Used   271 times
+[                     DFTURRETS][Constant:                6 B] Used   271 times
+[                  BREACHRADIUS][Constant:                4 B] Used   271 times
+[                ATTACKONBREACH][Constant:                6 B] Used   271 times
+[             SPAWNACTOR5CHANCE][Constant:                1 B] Used   270 times
+[           SPAWNACTOR4VELOCITY][Constant:                4 B] Used   270 times
+[           SPAWNACTOR3VELOCITY][Constant:                4 B] Used   270 times
+[                    HASSTARGET][Constant:                6 B] Used   270 times
+[                   INITIALMODE][Constant:                1 B] Used   270 times
+[                    HASPTARGET][Min:       0 B Max       5 B] Used   270 times
+[             SPAWNACTOR2CHANCE][Constant:                1 B] Used   270 times
+[                      GIBDEATH][Min:       0 B Max       5 B] Used   270 times
+[                    BACKPYCORR][Constant:                4 B] Used   270 times
+[                       GIBPART][Min:       0 B Max      75 B] Used   270 times
+[                  INITIALALERT][Constant:                1 B] Used   270 times
+[                      CUCCOVER][Min:       0 B Max       6 B] Used   270 times
+[                      CUOCOVER][Min:       0 B Max       6 B] Used   270 times
+[                         FLEER][Constant:                4 B] Used   270 times
+[                      CUUCOVER][Min:       0 B Max       6 B] Used   270 times
+[                   ONLYPTARGET][Min:       0 B Max       5 B] Used   270 times
+[                    HEADPPCORR][Constant:                4 B] Used   270 times
+[                    HEADPYCORR][Constant:                4 B] Used   270 times
+[                 DEFTRANSBLEND][Constant:                4 B] Used   270 times
+[                       MDSOUND][Min:       0 B Max       6 B] Used   270 times
+[                      SLOWTURN][Min:       0 B Max       5 B] Used   270 times
+[                       HDSOUND][Min:       0 B Max       6 B] Used   270 times
+[                   SPAWNACTOR1][Min:       0 B Max      91 B] Used   270 times
+[                   SPAWNACTOR2][Min:       0 B Max      69 B] Used   270 times
+[                   SPAWNACTOR3][Min:       0 B Max      87 B] Used   270 times
+[                   SPAWNACTOR4][Constant:                1 B] Used   270 times
+[                   SPAWNACTOR5][Constant:                1 B] Used   270 times
+[           SPAWNACTOR1VELOCITY][Constant:                4 B] Used   270 times
+[                    BACKPPCORR][Constant:                4 B] Used   270 times
+[           SPAWNACTOR2VELOCITY][Constant:                4 B] Used   270 times
+[           SPAWNACTOR5VELOCITY][Constant:                4 B] Used   270 times
+[             SPAWNACTOR1CHANCE][Constant:                1 B] Used   270 times
+[             SPAWNACTOR3CHANCE][Constant:                1 B] Used   270 times
+[             SPAWNACTOR4CHANCE][Constant:                1 B] Used   270 times
+[                      KEEPADIS][Min:       0 B Max       6 B] Used   270 times
+[                       LDSOUND][Min:       0 B Max       6 B] Used   270 times
+[                    ALWAYSWALK][Constant:                6 B] Used   269 times
+[                       AIAVOID][Min:       0 B Max       6 B] Used   269 times
+[                           SGR][Constant:                1 B] Used   269 times
+[                         SCALE][Constant:               12 B] Used   222 times
+[               CANBESWARMBORED][Min:       0 B Max       6 B] Used   158 times
+[                          TRNS][Min:       0 B Max   43300 B] Used   155 times
+[                  CANDISMEMBER][Min:       0 B Max       6 B] Used   141 times
+[                BODYPARTPREFIX][Min:       0 B Max      23 B] Used   141 times
+[                  CANTBEPUSHED][Min:       0 B Max       5 B] Used   139 times
+[             VERTCLIMBINGSPEED][Constant:                4 B] Used   119 times
+[             HORZCLIMBINGSPEED][Constant:                4 B] Used   119 times
+[                MINASSAULTDIST][Constant:                4 B] Used   114 times
+[              CANBEGRAVITYHELD][Min:       0 B Max       6 B] Used   114 times
+[                        SPINTI][Constant:                4 B] Used   114 times
+[                       CHEVADE][Min:       0 B Max       5 B] Used   114 times
+[                HEADFLINCHBONE][Constant:                1 B] Used   114 times
+[                        SPINTS][Constant:                4 B] Used   114 times
+[                      CALLSOUT][Min:       0 B Max       5 B] Used   114 times
+[               TORSOFLINCHBONE][Constant:                1 B] Used   114 times
+[                MAXASSAULTDIST][Constant:                4 B] Used   114 times
+[                  ASSAULTFRONT][Constant:                5 B] Used   114 times
+[                  EVADEACQUIRE][Constant:                1 B] Used   114 times
+[                   EVADEATTACK][Constant:                1 B] Used   114 times
+[                       CREVADE][Min:       0 B Max       5 B] Used   114 times
+[                   CANTELEPORT][Min:       0 B Max       5 B] Used   114 times
+[               SWITCHCOLLISION][Min:       0 B Max       6 B] Used   114 times
+[                    FOLLOWDIST][Constant:                4 B] Used   114 times
+[                   EVADEDAMAGE][Constant:                1 B] Used   114 times
+[                        SPINTF][Constant:                4 B] Used   114 times
+[                    DOORSTATUS][Constant:                1 B] Used   100 times
+[                  LOCKEDSTATUS][Constant:                1 B] Used   100 times
+[                        STDFAN][Constant:                4 B] Used    75 times
+[                        STSSPD][Constant:                4 B] Used    75 times
+[                        STFBNC][Constant:                4 B] Used    75 times
+[                        STFRAD][Constant:                4 B] Used    75 times
+[                        STADEF][Min:       0 B Max       5 B] Used    75 times
+[                        STSCNT][Constant:                4 B] Used    75 times
+[                        STTYPE][Constant:                1 B] Used    75 times
+[                        STCLSN][Min:       0 B Max       5 B] Used    75 times
+[                         STAMN][Constant:                4 B] Used    75 times
+[                         STCHS][Constant:                4 B] Used    75 times
+[                        STFALL][Min:       0 B Max       6 B] Used    75 times
+[                        STFSPD][Constant:                4 B] Used    75 times
+[                       STFRSPD][Constant:                4 B] Used    75 times
+[                        STSAMN][Constant:                4 B] Used    75 times
+[                         STSPD][Constant:                4 B] Used    75 times
+[                        STSPDR][Constant:                4 B] Used    75 times
+[                          AS_S][Constant:                1 B] Used    69 times
+[                     DROPSOUND][Min:       0 B Max       7 B] Used    61 times
+[                    DANCESPEED][Constant:                4 B] Used    57 times
+[                        DANCES][Constant:                6 B] Used    57 times
+[                   DANCEAMOUNT][Constant:                4 B] Used    57 times
+[                    PICKUPTYPE][Constant:                1 B] Used    57 times
+[                  HEALTHAMOUNT][Constant:                4 B] Used    57 times
+[                    AMMOAMOUNT][Constant:                1 B] Used    57 times
+[                        RSPWNT][Constant:                4 B] Used    55 times
+[                 EWSECMAXFIRES][Constant:                1 B] Used    52 times
+[               EWSECRELOADTIME][Constant:                4 B] Used    52 times
+[                    EWPARTNAME][Min:       0 B Max      77 B] Used    52 times
+[                 EWALTPARTNAME][Min:       0 B Max      52 B] Used    52 times
+[                   EWFLASHNAME][Min:       0 B Max      68 B] Used    52 times
+[                  PRIMARYSOUND][Min:       0 B Max       1 B] Used    52 times
+[                    EWMINFIRES][Constant:                1 B] Used    52 times
+[                    EWMAXFIRES][Constant:                1 B] Used    52 times
+[                 EWSECPARTNAME][Min:       0 B Max      47 B] Used    52 times
+[                EWSECFLASHNAME][Min:       0 B Max      64 B] Used    52 times
+[                SECONDARYSOUND][Min:       0 B Max       7 B] Used    52 times
+[                    EWHOLDDOWN][Min:       0 B Max       5 B] Used    52 times
+[                  EWRELOADTIME][Constant:                4 B] Used    52 times
+[                 EWSECMINFIRES][Constant:                1 B] Used    52 times
+[                      EWMODVEL][Min:       0 B Max       5 B] Used    52 times
+[                   EWALTCHANCE][Constant:                1 B] Used    52 times
+[                   EWTHROWDIST][Constant:                4 B] Used    52 times
+[                 EWFLASHCHANCE][Constant:                1 B] Used    52 times
+[                  DEATHLONGSND][Min:       0 B Max       1 B] Used    39 times
+[         STERACOSAUR_TURNSPEED][Constant:                4 B] Used    39 times
+[                    PT_FRSDACC][Constant:                4 B] Used    39 times
+[                    PT_CAMLFOV][Constant:                4 B] Used    39 times
+[                     JMPLNDSND][Min:       0 B Max       7 B] Used    39 times
+[                  PT_CAMLCHLAG][Constant:                1 B] Used    39 times
+[                    PT_CAM1YPB][Constant:                4 B] Used    39 times
+[                     TURNSPEED][Constant:                4 B] Used    39 times
+[              LEDGESHIMMYSPEED][Constant:                4 B] Used    39 times
+[                      PT_LPWAV][Constant:                4 B] Used    39 times
+[                 PT_CAMLYLAOFF][Constant:                4 B] Used    39 times
+[                     PT_WEAMSD][Constant:                4 B] Used    39 times
+[                  PT_CAMLCROLL][Constant:                4 B] Used    39 times
+[                MAXSTRAFESPEED][Constant:                4 B] Used    39 times
+[                      PT_ACDAM][Constant:                4 B] Used    39 times
+[          STERACOSAUR_DASHTIME][Constant:                4 B] Used    39 times
+[                  PT_CAMLYEYSW][Constant:                4 B] Used    39 times
+[               FALLINGSPLATSND][Min:       0 B Max       1 B] Used    39 times
+[                  PT_CAMLYLASW][Constant:                4 B] Used    39 times
+[       STERACOSAUR_MAXRUNSPEED][Constant:                4 B] Used    39 times
+[                    MAXBOWAMMO][Constant:                1 B] Used    39 times
+[                     PT_FREDGR][Constant:                4 B] Used    39 times
+[            WATERSURFACEBADSND][Min:       0 B Max       1 B] Used    39 times
+[                  PAINHEAVYSND][Min:       0 B Max       1 B] Used    39 times
+[                   CLIMB_SPEED][Constant:                4 B] Used    39 times
+[                    PT_CAMLLAL][Constant:                4 B] Used    39 times
+[               CROUCHEYEHEIGHT][Constant:                4 B] Used    39 times
+[                  PT_CAM3CROLL][Constant:                4 B] Used    39 times
+[            PAINPOISONGROANSND][Min:       0 B Max       1 B] Used    39 times
+[         RAPTOR_MAXSTRAFESPEED][Constant:                4 B] Used    39 times
+[                      DROWNSND][Min:       0 B Max       1 B] Used    39 times
+[             MAXCROUCHRUNSPEED][Constant:                4 B] Used    39 times
+[                 PT_FRFGUPAMNT][Constant:                4 B] Used    39 times
+[                 MAXTEKBOWAMMO][Constant:                1 B] Used    39 times
+[         MAXDARKMATTERCUBEAMMO][Constant:                1 B] Used    39 times
+[    STERACOSAUR_MAXSTRAFESPEED][Constant:                4 B] Used    39 times
+[                    PT_CAM1ZPB][Constant:                4 B] Used    39 times
+[                    PT_CAM3LAC][Constant:                4 B] Used    39 times
+[                RAPTOR_TURNLAG][Constant:                4 B] Used    39 times
+[                     PT_FRDACC][Constant:                4 B] Used    39 times
+[                     PT_WEAMGD][Constant:                4 B] Used    39 times
+[            FALLDAMAGEMINSPEED][Constant:                4 B] Used    39 times
+[                       WADESND][Min:       0 B Max      18 B] Used    39 times
+[             MAXTECHWEAPONAMMO][Constant:                1 B] Used    39 times
+[                       PT_FRGR][Constant:                4 B] Used    39 times
+[                    PT_CAMLETB][Constant:                4 B] Used    39 times
+[                   PT_FREDHACC][Constant:                4 B] Used    39 times
+[              RAPTOR_EYEHEIGHT][Constant:                4 B] Used    39 times
+[                    PLAYERTYPE][Constant:                1 B] Used    39 times
+[                 DEATHSHORTSND][Min:       0 B Max       1 B] Used    39 times
+[          CLIMB_HORIZVIEWANGLE][Constant:                4 B] Used    39 times
+[                  PT_FRSDSTART][Constant:                4 B] Used    39 times
+[                 PAINMEDIUMSND][Min:       0 B Max       1 B] Used    39 times
+[             RAPTOR_EYEZOFFSET][Constant:                4 B] Used    39 times
+[                    PT_FRSDMAX][Constant:                4 B] Used    39 times
+[                    PT_CAM3LAL][Constant:                4 B] Used    39 times
+[                 ENTERWATERSND][Min:       0 B Max       1 B] Used    39 times
+[                     EYEHEIGHT][Constant:                4 B] Used    39 times
+[                 MAXPISTOLAMMO][Constant:                1 B] Used    39 times
+[                MAXSHOTGUNAMMO][Constant:                1 B] Used    39 times
+[                MAXMINIGUNAMMO][Constant:                1 B] Used    39 times
+[               MAXLAUNCHERAMMO][Constant:                1 B] Used    39 times
+[                MAXGRENADEAMMO][Constant:                1 B] Used    39 times
+[           MAXGUIDEDDEVICEAMMO][Constant:                1 B] Used    39 times
+[                  JUMPVELOCITY][Constant:                4 B] Used    39 times
+[          MAXCROUCHSTRAFESPEED][Constant:                4 B] Used    39 times
+[            FALLDAMAGEMAXSPEED][Constant:                4 B] Used    39 times
+[                     SWIMSPEED][Constant:                4 B] Used    39 times
+[              DROWNINITIALTIME][Constant:                4 B] Used    39 times
+[                 DROWNINTERVAL][Constant:                4 B] Used    39 times
+[                   DROWNDAMAGE][Constant:                4 B] Used    39 times
+[                   CLIMB_ACCEL][Constant:                4 B] Used    39 times
+[                   CLIMB_DECEL][Constant:                4 B] Used    39 times
+[            RAPTOR_MAXRUNSPEED][Constant:                4 B] Used    39 times
+[           RAPTOR_JUMPVELOCITY][Constant:                4 B] Used    39 times
+[      STERACOSAUR_CAMERAHEIGHT][Constant:                4 B] Used    39 times
+[    STERACOSAUR_CAMERADISTANCE][Constant:                4 B] Used    39 times
+[         STERACOSAUR_DASHSPEED][Constant:                4 B] Used    39 times
+[  STERACOSAUR_DASHRECHARGETIME][Constant:                4 B] Used    39 times
+[                      PT_WODAM][Constant:                4 B] Used    39 times
+[                      PT_WOSTN][Constant:                4 B] Used    39 times
+[                      PT_ACSTN][Constant:                4 B] Used    39 times
+[                    PT_FRSDMIN][Constant:                4 B] Used    39 times
+[                     PT_FRHACC][Constant:                4 B] Used    39 times
+[                     PT_FRUACC][Constant:                4 B] Used    39 times
+[                     PT_FRHDMP][Constant:                4 B] Used    39 times
+[                     PT_FRVDMP][Constant:                4 B] Used    39 times
+[                  PT_FRFGUPSPD][Constant:                4 B] Used    39 times
+[                    PT_CAM1FOV][Constant:                4 B] Used    39 times
+[                  PT_FRFGDNSPD][Constant:                4 B] Used    39 times
+[                 PT_FRFGDNAMNT][Constant:                4 B] Used    39 times
+[                   MAXRUNSPEED][Constant:                4 B] Used    39 times
+[                  PT_FRFGUPBLN][Constant:                4 B] Used    39 times
+[                  PT_FRFGDNBLN][Constant:                4 B] Used    39 times
+[                   PT_FREDVACC][Constant:                4 B] Used    39 times
+[                  PT_RIDERNAME][Min:       0 B Max      59 B] Used    39 times
+[                 PT_RIDERPOINT][Min:       0 B Max      11 B] Used    39 times
+[                  PT_CAM1CROLL][Constant:                4 B] Used    39 times
+[                    PT_CAM3FOV][Constant:                4 B] Used    39 times
+[                    PT_CAM3ETB][Constant:                4 B] Used    39 times
+[                     PT_CAM3EL][Constant:                4 B] Used    39 times
+[                    PT_CAM3EAC][Constant:                4 B] Used    39 times
+[                    PT_CAMLCLA][Constant:                4 B] Used    39 times
+[                     PT_CAMLEL][Constant:                4 B] Used    39 times
+[                 PT_CAMLYEYOFF][Constant:                4 B] Used    39 times
+[                  PT_CAMLPROLL][Constant:                4 B] Used    39 times
+[                    FLTLEFTSND][Min:       0 B Max       6 B] Used    39 times
+[                   FLTRIGHTSND][Min:       0 B Max       7 B] Used    39 times
+[                   FLTSPEEDSND][Min:       0 B Max       7 B] Used    39 times
+[                  FLTLOCKONSND][Min:       0 B Max       7 B] Used    39 times
+[                FLTHITWORLDSND][Min:       0 B Max       7 B] Used    39 times
+[               FLTWATERSKIMSND][Min:       0 B Max       7 B] Used    39 times
+[               FLTNOMISSILESND][Min:       0 B Max       7 B] Used    39 times
+[             FLTMISSILEFIRESND][Min:       0 B Max       5 B] Used    39 times
+[                       FOOTSND][Min:       0 B Max       1 B] Used    39 times
+[                        JMPSND][Min:       0 B Max       6 B] Used    39 times
+[                       TURNSND][Min:       0 B Max      18 B] Used    39 times
+[                SURFACESWIMSND][Min:       0 B Max       1 B] Used    39 times
+[             UNDERWATERSWIMSND][Min:       0 B Max       1 B] Used    39 times
+[                  EXITWATERSND][Min:       0 B Max       1 B] Used    39 times
+[           WATERSURFACEGOODSND][Min:       0 B Max       1 B] Used    39 times
+[                 DROWNDEATHSND][Min:       0 B Max       1 B] Used    39 times
+[                    FALLINGSND][Min:       0 B Max       6 B] Used    39 times
+[                      CLIMBSND][Min:       0 B Max       1 B] Used    39 times
+[                  PAINLIGHTSND][Min:       0 B Max       1 B] Used    39 times
+[            PAINPOISONCHOKESND][Min:       0 B Max       1 B] Used    39 times
+[            DEATHSWARMBOREDSND][Min:       0 B Max       1 B] Used    39 times
+[              JUMPLANDHEAVYSND][Min:       0 B Max      18 B] Used    39 times
+[                 EASYAIMRADIUS][Constant:                4 B] Used    39 times
+[                   PICKUPSOUND][Min:       0 B Max       1 B] Used    38 times
+[                             Y][Constant:                4 B] Used    35 times
+[                             X][Constant:                4 B] Used    35 times
+[                             Z][Constant:                4 B] Used    35 times
+[                  RESPAWNSOUND][Min:       0 B Max       1 B] Used    34 times
+[                SHIELDOFFSOUND][Min:       0 B Max       1 B] Used    32 times
+[               REGENERATESOUND][Min:       0 B Max       1 B] Used    32 times
+[               DEADPLAYERACTOR][Min:       0 B Max      86 B] Used    32 times
+[                CELEBRATESOUND][Min:       0 B Max       1 B] Used    32 times
+[                 SHIELDONSOUND][Min:       0 B Max       1 B] Used    32 times
+[                      ISRAPTOR][Min:       0 B Max       5 B] Used    32 times
+[          DEATHHELMACTIVESOUND][Min:       0 B Max       1 B] Used    32 times
+[             POISONDAMAGESOUND][Min:       0 B Max       6 B] Used    32 times
+[              POISONDEATHSOUND][Min:       0 B Max       6 B] Used    32 times
+[                YELLOWTEAMMESH][Min:       0 B Max      82 B] Used    32 times
+[          CLOAKINGBELTOFFSOUND][Min:       0 B Max       1 B] Used    32 times
+[                 GREENTEAMMESH][Min:       0 B Max      82 B] Used    32 times
+[             SHIELDACTIVESOUND][Min:       0 B Max       1 B] Used    32 times
+[             SHIELDDAMAGESOUND][Min:       0 B Max       1 B] Used    32 times
+[              DEATHHELMONSOUND][Min:       0 B Max       1 B] Used    32 times
+[             DEATHHELMOFFSOUND][Min:       0 B Max       1 B] Used    32 times
+[           CLOAKINGBELTONSOUND][Min:       0 B Max       1 B] Used    32 times
+[                    TAUNTSOUND][Min:       0 B Max       1 B] Used    32 times
+[            POISONRECOVERSOUND][Min:       0 B Max       6 B] Used    32 times
+[                   PT_WEAMSDMG][Constant:                4 B] Used    31 times
+[                      SNAPSHOT][Min:       0 B Max       6 B] Used    31 times
+[                   PT_WEAMSSPD][Constant:                4 B] Used    31 times
+[                   PT_WEAMGDMG][Constant:                4 B] Used    31 times
+[                 RAGELOOPSOUND][Min:       0 B Max       1 B] Used    29 times
+[                  SPEEDONSOUND][Min:       0 B Max       1 B] Used    29 times
+[                  RAGEENDSOUND][Min:       0 B Max       1 B] Used    29 times
+[                JUMPBOOTSSOUND][Min:       0 B Max       1 B] Used    29 times
+[                ENTERRAGESOUND][Min:       0 B Max       1 B] Used    29 times
+[                 SPEEDOFFSOUND][Min:       0 B Max       1 B] Used    29 times
+[                 FLYINGPERTURB][Constant:                1 B] Used    24 times
+[                  GAMINNUMBERS][Constant:                1 B] Used    24 times
+[                   GAGROUPNAME][Min:       0 B Max       6 B] Used    24 times
+[                 ALTERNATETYPE][Min:       0 B Max      69 B] Used    24 times
+[                      BIRDFORM][Constant:                1 B] Used    24 times
+[                   FLIGHTSPEED][Constant:                4 B] Used    24 times
+[                   FLYINGHOVER][Constant:                1 B] Used    24 times
+[                  FLAPBEHAVIOR][Constant:                1 B] Used    24 times
+[                 GAGROUPATTACK][Min:       0 B Max       6 B] Used    24 times
+[                          TERR][Constant:                4 B] Used    23 times
+[                XROTATIONSPEED][Constant:                4 B] Used    23 times
+[                         TIGMY][Constant:                6 B] Used    23 times
+[               ENEMYTURRETTYPE][Constant:                1 B] Used    23 times
+[                  MAXXROTATION][Constant:                4 B] Used    23 times
+[                         TIGMX][Constant:                6 B] Used    23 times
+[                  MAXYROTATION][Constant:                4 B] Used    23 times
+[                YROTATIONSPEED][Constant:                4 B] Used    23 times
+[                 YROTATIONBONE][Constant:                1 B] Used    23 times
+[                    PLAYERMODE][Constant:                1 B] Used    23 times
+[                    TURRETTYPE][Constant:                1 B] Used    23 times
+[              AUTOTURRETRADIUS][Constant:                4 B] Used    23 times
+[                          SFRE][Constant:                4 B] Used    23 times
+[                 XROTATIONBONE][Constant:                1 B] Used    23 times
+[                     SCALEBASE][Constant:                4 B] Used    18 times
+[             POSITIONYUPGRADE1][Constant:                4 B] Used    18 times
+[   MUZZLERIDINGYFACTORUPGRADE1][Constant:                4 B] Used    18 times
+[    USABLEWHENCLIMBINGUPGRADE2][Constant:                6 B] Used    18 times
+[       MUZZLERIDINGYFACTORBASE][Constant:                4 B] Used    18 times
+[           AMMOPERCLIPUPGRADE1][Constant:                1 B] Used    18 times
+[    USABLEWHENCLIMBINGUPGRADE1][Constant:                6 B] Used    18 times
+[                    ISUPGRADE1][Min:       0 B Max       6 B] Used    18 times
+[       TWOHANDEDWEAPONUPGRADE2][Constant:                6 B] Used    18 times
+[            WEAPONTYPEUPGRADE2][Constant:                1 B] Used    18 times
+[          USABLEUNDERWATERBASE][Min:       0 B Max       5 B] Used    18 times
+[                    ISUPGRADE2][Min:       0 B Max       5 B] Used    18 times
+[       AMMOUSEDPERSHOTUPGRADE2][Constant:                1 B] Used    18 times
+[                 POSITIONZBASE][Constant:                4 B] Used    18 times
+[               AMMOPERCLIPBASE][Constant:                1 B] Used    18 times
+[           AMMOPERCLIPUPGRADE2][Constant:                1 B] Used    18 times
+[   MUZZLERIDINGXFACTORUPGRADE1][Constant:                4 B] Used    18 times
+[                WEAPONTYPEBASE][Constant:                1 B] Used    18 times
+[                        WEAPON][Constant:                1 B] Used    18 times
+[                WEAPONNAMEBASE][Constant:                8 B] Used    18 times
+[        USABLEWHENCLIMBINGBASE][Min:       0 B Max       5 B] Used    18 times
+[                 POSITIONXBASE][Constant:                4 B] Used    18 times
+[                 POSITIONYBASE][Constant:                4 B] Used    18 times
+[           AMMOUSEDPERSHOTBASE][Constant:                1 B] Used    18 times
+[       MUZZLERIDINGXFACTORBASE][Constant:                4 B] Used    18 times
+[            WEAPONNAMEUPGRADE1][Constant:                8 B] Used    18 times
+[      USABLEUNDERWATERUPGRADE1][Constant:                6 B] Used    18 times
+[       TWOHANDEDWEAPONUPGRADE1][Min:       0 B Max       5 B] Used    18 times
+[            WEAPONTYPEUPGRADE1][Constant:                1 B] Used    18 times
+[             POSITIONXUPGRADE1][Constant:                4 B] Used    18 times
+[             POSITIONZUPGRADE1][Constant:                4 B] Used    18 times
+[                 SCALEUPGRADE1][Constant:                4 B] Used    18 times
+[       AMMOUSEDPERSHOTUPGRADE1][Constant:                1 B] Used    18 times
+[            WEAPONNAMEUPGRADE2][Constant:                8 B] Used    18 times
+[      USABLEUNDERWATERUPGRADE2][Constant:                6 B] Used    18 times
+[             POSITIONXUPGRADE2][Constant:                4 B] Used    18 times
+[             POSITIONZUPGRADE2][Constant:                4 B] Used    18 times
+[                 SCALEUPGRADE2][Constant:                4 B] Used    18 times
+[   MUZZLERIDINGXFACTORUPGRADE2][Constant:                4 B] Used    18 times
+[   MUZZLERIDINGYFACTORUPGRADE2][Constant:                4 B] Used    18 times
+[           TWOHANDEDWEAPONBASE][Min:       0 B Max       5 B] Used    18 times
+[             POSITIONYUPGRADE2][Constant:                4 B] Used    18 times
+[                  COVER_RADIUS][Constant:                4 B] Used    14 times
+[                        W_SUHF][Constant:                1 B] Used    14 times
+[                          W_SP][Constant:                1 B] Used    14 times
+[                        W_SUHI][Constant:                1 B] Used    14 times
+[                         W_FSY][Constant:                4 B] Used    14 times
+[                         W_DSX][Constant:                4 B] Used    14 times
+[                          W_BA][Constant:                4 B] Used    14 times
+[                          W_FC][Constant:                4 B] Used    14 times
+[                    COVER_TYPE][Constant:                1 B] Used    14 times
+[                   STEPOUT_DIR][Constant:                1 B] Used    14 times
+[                         W_THF][Constant:                1 B] Used    14 times
+[                        W_XLAY][Constant:                1 B] Used    14 times
+[                          W_BC][Constant:                1 B] Used    14 times
+[                          W_WC][Constant:                1 B] Used    14 times
+[                          W_BM][Min:       0 B Max       1 B] Used    14 times
+[                         W_FON][Min:       0 B Max      35 B] Used    14 times
+[                         W_TMF][Constant:                1 B] Used    14 times
+[                         W_TMN][Constant:                1 B] Used    14 times
+[                         W_THI][Constant:                1 B] Used    14 times
+[                           W_T][Constant:                1 B] Used    14 times
+[                         W_DSC][Constant:                1 B] Used    14 times
+[                         W_DSY][Constant:                4 B] Used    14 times
+[                         W_SUB][Constant:                1 B] Used    14 times
+[                          DRAG][Constant:                4 B] Used    14 times
+[                         W_FSX][Constant:                4 B] Used    14 times
+[                        W_YLAY][Constant:                1 B] Used    14 times
+[                 AMMOUPG1SLOT7][Min:       0 B Max       6 B] Used    12 times
+[                 AMMOUPG1SLOT3][Constant:                1 B] Used    12 times
+[                 AMMOUPG1SLOT1][Constant:                1 B] Used    12 times
+[                 AMMOUPG1SLOT5][Min:       0 B Max       5 B] Used    12 times
+[                GRAVITYFACTORZ][Constant:                4 B] Used    12 times
+[                 AMMOUPG1SLOT2][Min:       0 B Max       6 B] Used    12 times
+[                 UPGRADE2SLOT7][Min:       0 B Max       4 B] Used    12 times
+[                 AMMOUPG0SLOT0][Min:       0 B Max       6 B] Used    12 times
+[                   AXIALFIELDX][Constant:                4 B] Used    12 times
+[          STARTSOFFWITHWEAPON7][Min:       0 B Max       5 B] Used    12 times
+[                    PATHEFFECT][Constant:                1 B] Used    12 times
+[                 CIRCULARRAMPZ][Constant:                4 B] Used    12 times
+[                 AMMOUPG0SLOT5][Min:       0 B Max       4 B] Used    12 times
+[                 AMMOUPG0SLOT6][Min:       0 B Max       4 B] Used    12 times
+[                 AMMOUPG0SLOT2][Min:       0 B Max       6 B] Used    12 times
+[                          R_TT][Constant:                6 B] Used    12 times
+[                  PLANARFIELDX][Constant:                4 B] Used    12 times
+[                 UPGRADE1SLOT6][Min:       0 B Max       4 B] Used    12 times
+[          STARTSOFFWITHWEAPON4][Min:       0 B Max       8 B] Used    12 times
+[                 AMMOUPG2SLOT0][Min:       0 B Max      18 B] Used    12 times
+[                  PLANARFIELDZ][Constant:                4 B] Used    12 times
+[                   PLANARRAMPZ][Constant:                4 B] Used    12 times
+[                  LINEAREFFECT][Constant:                1 B] Used    12 times
+[                 AMMOUPG2SLOT3][Constant:                1 B] Used    12 times
+[                    PATHINRAMP][Constant:                4 B] Used    12 times
+[                    AXIALRAMPX][Constant:                4 B] Used    12 times
+[                  LINEARFIELDX][Constant:                4 B] Used    12 times
+[                 UPGRADE2SLOT0][Constant:                6 B] Used    12 times
+[                  LINEARFIELDY][Constant:                4 B] Used    12 times
+[                     PATHFIELD][Constant:                4 B] Used    12 times
+[                      PATHRAMP][Constant:                4 B] Used    12 times
+[                 CIRCULARRAMPY][Constant:                4 B] Used    12 times
+[                    POINTFIELD][Constant:                4 B] Used    12 times
+[                   AXIALFIELDZ][Constant:                4 B] Used    12 times
+[                 UPGRADE1SLOT3][Min:       0 B Max       5 B] Used    12 times
+[                 AMMOUPG2SLOT2][Constant:                1 B] Used    12 times
+[                    AXIALRAMPZ][Constant:                4 B] Used    12 times
+[                   PLANARRAMPX][Constant:                4 B] Used    12 times
+[          STARTSOFFWITHWEAPON2][Min:       0 B Max       6 B] Used    12 times
+[                 UPGRADE1SLOT4][Min:       0 B Max       9 B] Used    12 times
+[                   WEAPONSLOT2][Min:       0 B Max       9 B] Used    12 times
+[                          R_NK][Constant:                1 B] Used    12 times
+[                CIRCULARFIELDY][Constant:                4 B] Used    12 times
+[          STARTSOFFWITHWEAPON5][Min:       0 B Max       5 B] Used    12 times
+[                 AMMOUPG0SLOT3][Min:       0 B Max       5 B] Used    12 times
+[                 AMMOUPG2SLOT5][Constant:                1 B] Used    12 times
+[                   AXIALEFFECT][Constant:                1 B] Used    12 times
+[                CIRCULARFIELDX][Constant:                4 B] Used    12 times
+[                 UPGRADE1SLOT5][Min:       0 B Max       5 B] Used    12 times
+[                 UPGRADE1SLOT0][Min:       0 B Max       8 B] Used    12 times
+[               AXIALISRELATIVE][Constant:                5 B] Used    12 times
+[                     POINTRAMP][Constant:                4 B] Used    12 times
+[                          R_AT][Constant:                1 B] Used    12 times
+[                          R_NP][Constant:                4 B] Used    12 times
+[              LINEARISRELATIVE][Constant:                5 B] Used    12 times
+[                  LINEARFIELDZ][Constant:                4 B] Used    12 times
+[                   POINTEFFECT][Constant:                1 B] Used    12 times
+[                   AXIALFIELDY][Constant:                4 B] Used    12 times
+[                    AXIALRAMPY][Constant:                4 B] Used    12 times
+[                     PATHINISH][Constant:                6 B] Used    12 times
+[                  PLANAREFFECT][Constant:                1 B] Used    12 times
+[              PLANARISRELATIVE][Constant:                5 B] Used    12 times
+[                  PLANARFIELDY][Constant:                4 B] Used    12 times
+[                   PLANARRAMPY][Constant:                4 B] Used    12 times
+[                CIRCULAREFFECT][Constant:                1 B] Used    12 times
+[            CIRCULARISRELATIVE][Constant:                5 B] Used    12 times
+[                CIRCULARFIELDZ][Constant:                4 B] Used    12 times
+[                 CIRCULARRAMPX][Constant:                4 B] Used    12 times
+[                   PATHINFIELD][Constant:                4 B] Used    12 times
+[                GRAVITYFACTORY][Constant:                4 B] Used    12 times
+[                   ADDGRAVITYX][Constant:                4 B] Used    12 times
+[                   ADDGRAVITYY][Constant:                4 B] Used    12 times
+[                   ADDGRAVITYZ][Constant:                4 B] Used    12 times
+[                   WEAPONSLOT0][Min:       0 B Max      12 B] Used    12 times
+[          STARTSOFFWITHWEAPON0][Min:       0 B Max       6 B] Used    12 times
+[                 AMMOUPG1SLOT0][Constant:                1 B] Used    12 times
+[                   WEAPONSLOT1][Min:       0 B Max       4 B] Used    12 times
+[                 UPGRADE1SLOT1][Min:       0 B Max       4 B] Used    12 times
+[                 UPGRADE2SLOT1][Min:       0 B Max       4 B] Used    12 times
+[          STARTSOFFWITHWEAPON1][Min:       0 B Max       6 B] Used    12 times
+[                 AMMOUPG0SLOT1][Constant:                1 B] Used    12 times
+[                 UPGRADE2SLOT5][Min:       0 B Max       5 B] Used    12 times
+[                 AMMOUPG2SLOT1][Min:       0 B Max       4 B] Used    12 times
+[                 UPGRADE1SLOT2][Min:       0 B Max       5 B] Used    12 times
+[                 UPGRADE2SLOT2][Min:       0 B Max       8 B] Used    12 times
+[                   WEAPONSLOT3][Min:       0 B Max       4 B] Used    12 times
+[                 UPGRADE2SLOT3][Min:       0 B Max       4 B] Used    12 times
+[          STARTSOFFWITHWEAPON3][Min:       0 B Max       6 B] Used    12 times
+[                   WEAPONSLOT4][Min:       0 B Max       4 B] Used    12 times
+[                 UPGRADE2SLOT4][Min:       0 B Max       5 B] Used    12 times
+[                 AMMOUPG0SLOT4][Min:       0 B Max       6 B] Used    12 times
+[                 AMMOUPG1SLOT4][Min:       0 B Max       6 B] Used    12 times
+[                   WEAPONSLOT5][Min:       0 B Max      18 B] Used    12 times
+[                   WEAPONSLOT6][Min:       0 B Max       4 B] Used    12 times
+[                 UPGRADE2SLOT6][Min:       0 B Max      14 B] Used    12 times
+[          STARTSOFFWITHWEAPON6][Min:       0 B Max       5 B] Used    12 times
+[                 AMMOUPG1SLOT6][Min:       0 B Max       4 B] Used    12 times
+[                 AMMOUPG2SLOT6][Min:       0 B Max       4 B] Used    12 times
+[                   WEAPONSLOT7][Min:       0 B Max       4 B] Used    12 times
+[                 UPGRADE1SLOT7][Min:       0 B Max       1 B] Used    12 times
+[                 AMMOUPG0SLOT7][Min:       0 B Max      20 B] Used    12 times
+[                 AMMOUPG2SLOT7][Min:       0 B Max       4 B] Used    12 times
+[                 AMMOUPG2SLOT4][Min:       0 B Max       6 B] Used    12 times
+[                GRAVITYFACTORX][Constant:                4 B] Used    12 times
+[                   MARKER_TYPE][Constant:                1 B] Used    10 times
+[                COVER_MINRANGE][Constant:                4 B] Used    10 times
+[                COVER_MAXRANGE][Constant:                4 B] Used    10 times
+[                           NLP][Min:       0 B Max       6 B] Used    10 times
+[                        OFFUPT][Constant:                4 B] Used    10 times
+[                      TEAMNAME][Constant:                1 B] Used    10 times
+[                       TARGERR][Constant:                4 B] Used    10 times
+[                       SHOOTFR][Constant:                4 B] Used    10 times
+[                        TARGAN][Constant:                1 B] Used    10 times
+[                        TAUPDT][Constant:                4 B] Used    10 times
+[                          OPSD][Min:       0 B Max       6 B] Used    10 times
+[                         EXSPD][Constant:                4 B] Used    10 times
+[                          OFFX][Constant:                4 B] Used    10 times
+[                          OFFY][Constant:                4 B] Used    10 times
+[                       OFFZMIN][Constant:                4 B] Used    10 times
+[                       OFFZMAX][Constant:                4 B] Used    10 times
+[                         VBSPD][Constant:                4 B] Used    10 times
+[                       EADHEAD][Min:       0 B Max       5 B] Used     9 times
+[                        STATUS][Constant:                5 B] Used     8 times
+[                     USERMODES][Min:       0 B Max     170 B] Used     8 times
+[                      DRYCLICK][Min:       0 B Max       1 B] Used     7 times
+[                    LIGHTCOLOR][Min:       0 B Max       1 B] Used     5 times
+[                ACTOR_DESTRUCT][Constant:               78 B] Used     5 times
+[                         SPEED][Constant:                4 B] Used     5 times
+[                       OFFSETY][Constant:                4 B] Used     4 times
+[                      RETURNED][Constant:                1 B] Used     4 times
+[                 DROPPEDSOUND2][Constant:               20 B] Used     4 times
+[                LIGHTINTENSITY][Constant:                4 B] Used     4 times
+[                 DROPPEDSOUND1][Constant:                7 B] Used     4 times
+[                  CAPTURESOUND][Constant:                7 B] Used     4 times
+[                 SPECULARCOLOR][Min:       0 B Max       4 B] Used     4 times
+[                       OFFSETX][Constant:                4 B] Used     4 times
+[                       OFFSETZ][Constant:                4 B] Used     4 times
+[                     MODEFLAGS][Constant:                1 B] Used     4 times
+[                       MAXTURN][Constant:                4 B] Used     4 times
+[                    RELAXDELAY][Constant:                4 B] Used     4 times
+[                           IST][Constant:                1 B] Used     3 times
+[                          SNA2][Constant:                1 B] Used     3 times
+[                  ACTORCHANCE0][Constant:                1 B] Used     3 times
+[              SPAWNINTERVALPS2][Constant:                4 B] Used     3 times
+[               ACTIVESPAWNSPS2][Constant:                1 B] Used     3 times
+[             SPAWNSFOLLOWSPATH][Min:       0 B Max       6 B] Used     3 times
+[                  ACTORCHANCE1][Constant:                1 B] Used     3 times
+[                           IPS][Constant:                1 B] Used     3 times
+[                           C_B][Constant:                4 B] Used     3 times
+[                 SPAWNINTERVAL][Constant:                4 B] Used     3 times
+[                          XFOV][Constant:                4 B] Used     3 times
+[                          SPGF][Constant:                1 B] Used     3 times
+[                      SNIPEFOV][Constant:                4 B] Used     3 times
+[   BULLET_BIRDMISSILE_VELOCITY][Constant:                4 B] Used     3 times
+[                        ACTOR1][Constant:                1 B] Used     3 times
+[                  ACTORCHANCE2][Constant:                1 B] Used     3 times
+[                        MIRROR][Constant:                6 B] Used     3 times
+[                           F_T][Constant:                4 B] Used     3 times
+[                ACTORQUANTITY2][Constant:                1 B] Used     3 times
+[                           FGZ][Constant:                4 B] Used     3 times
+[                  ACTIVESPAWNS][Constant:                1 B] Used     3 times
+[                     ACTOR4PS2][Constant:                1 B] Used     3 times
+[                 AFFECTSTARGET][Constant:                1 B] Used     3 times
+[                        ACTOR2][Constant:                1 B] Used     3 times
+[                  ACTORCHANCE4][Constant:                1 B] Used     3 times
+[                        ACTOR4][Constant:                1 B] Used     3 times
+[                     ACTOR0PS2][Constant:                1 B] Used     3 times
+[                   TOTALSPAWNS][Constant:                1 B] Used     3 times
+[                           IPP][Constant:                1 B] Used     3 times
+[                TOTALSPAWNSPS2][Constant:                1 B] Used     3 times
+[                    SEQUENTIAL][Constant:                6 B] Used     3 times
+[                          SNA1][Constant:                1 B] Used     3 times
+[        BULLET_NORMAL_VELOCITY][Constant:                4 B] Used     3 times
+[          BULLET_BIRD_VELOCITY][Constant:                4 B] Used     3 times
+[    BULLET_ENEMY_BIRD_VELOCITY][Constant:                4 B] Used     3 times
+[          BULLET_NORMAL_DAMAGE][Constant:                4 B] Used     3 times
+[            BULLET_BIRD_DAMAGE][Constant:                4 B] Used     3 times
+[     BULLET_BIRDMISSILE_DAMAGE][Constant:                4 B] Used     3 times
+[                   MAXSTRENGTH][Constant:                4 B] Used     3 times
+[        PLAYERCAMERAHORZOFFSET][Constant:                4 B] Used     3 times
+[        PLAYERCAMERAVERTOFFSET][Constant:                4 B] Used     3 times
+[      PREVENTUSERCAMERACONTROL][Constant:                5 B] Used     3 times
+[        TIMETOREACHMAXSTRENGTH][Constant:                4 B] Used     3 times
+[                 TIMETOTURNOFF][Constant:                4 B] Used     3 times
+[                          ITYP][Constant:                1 B] Used     3 times
+[                          IID1][Constant:                1 B] Used     3 times
+[                          IID2][Constant:                1 B] Used     3 times
+[                           FGX][Constant:                4 B] Used     3 times
+[                           FGY][Constant:                4 B] Used     3 times
+[                           FWF][Constant:                4 B] Used     3 times
+[                           FWE][Constant:                4 B] Used     3 times
+[                           F_F][Constant:                1 B] Used     3 times
+[                          F_BD][Constant:                4 B] Used     3 times
+[                          F_ED][Constant:                4 B] Used     3 times
+[                           F_C][Constant:                1 B] Used     3 times
+[                           C_A][Constant:                4 B] Used     3 times
+[                        ACTOR0][Min:       0 B Max       1 B] Used     3 times
+[                ACTORQUANTITY0][Constant:                1 B] Used     3 times
+[                    ACTORNAME0][Constant:                1 B] Used     3 times
+[                     ACTOR1PS2][Constant:                1 B] Used     3 times
+[                ACTORQUANTITY1][Constant:                1 B] Used     3 times
+[                    ACTORNAME1][Constant:                1 B] Used     3 times
+[                     ACTOR2PS2][Constant:                1 B] Used     3 times
+[                    ACTORNAME2][Constant:                1 B] Used     3 times
+[                        ACTOR3][Constant:                1 B] Used     3 times
+[                     ACTOR3PS2][Constant:                1 B] Used     3 times
+[                  ACTORCHANCE3][Constant:                1 B] Used     3 times
+[                ACTORQUANTITY3][Constant:                1 B] Used     3 times
+[                    ACTORNAME3][Constant:                1 B] Used     3 times
+[                ACTORQUANTITY4][Constant:                1 B] Used     3 times
+[                    ACTORNAME4][Constant:                1 B] Used     3 times
+[                  WAITINTERVAL][Constant:                4 B] Used     3 times
+[                   FOLLOWSPATH][Constant:                6 B] Used     3 times
+[                        SETREG][Constant:                6 B] Used     3 times
+[                    WAVENUMBER][Constant:                1 B] Used     3 times
+[                          YFOV][Constant:                4 B] Used     3 times
+[                   XRESOLUTION][Constant:                2 B] Used     3 times
+[                   YRESOLUTION][Constant:                2 B] Used     3 times
+[             CINEMATICPRIORITY][Constant:                6 B] Used     2 times
+[                      SPOLNAME][Constant:               70 B] Used     2 times
+[                EXPLOSIVEARROW][Min:       0 B Max      61 B] Used     2 times
+[                    BASEWOBBLE][Constant:                4 B] Used     2 times
+[                     VISCOSITY][Constant:                4 B] Used     2 times
+[                  DROPPEDSOUND][Constant:                7 B] Used     2 times
+[                     DAMPENING][Constant:                4 B] Used     2 times
+[                   NORMALARROW][Min:       0 B Max      52 B] Used     2 times
+[                  CALLOUTSOUND][Constant:                6 B] Used     2 times
+[                 INITIALRIPPLE][Constant:                1 B] Used     2 times
+[                  MAXTHROWDIST][Constant:                4 B] Used     2 times
+[                    RANDWOBBLE][Constant:                4 B] Used     2 times
+[                   TESSELATION][Constant:                1 B] Used     2 times
+[                         MPART][Constant:                1 B] Used     2 times
+[                   MAXHOLDTIME][Constant:                4 B] Used     2 times
+[                  MINTHROWDIST][Constant:                4 B] Used     2 times
+[                  PERTURBATION][Constant:                4 B] Used     2 times
+[                 EXPLOSIONNAME][Constant:               53 B] Used     2 times
+[                      DISTANCE][Constant:                4 B] Used     2 times
+[                          ESZR][Constant:                4 B] Used     1 times
+[                  STANDDOWNAIS][Constant:                6 B] Used     1 times
+[              PREFERREDPICKUP5][Constant:                1 B] Used     1 times
+[                    NGFIRENAME][Constant:               58 B] Used     1 times
+[                           RZR][Constant:                4 B] Used     1 times
+[                         DMASS][Constant:                4 B] Used     1 times
+[                      INERTIAZ][Constant:                4 B] Used     1 times
+[                   DESCRIPTION][Constant:                1 B] Used     1 times
+[               LEVELEXITHEIGHT][Constant:                4 B] Used     1 times
+[                    ALERTSTATE][Constant:                1 B] Used     1 times
+[                   ALARMRADIUS][Constant:                4 B] Used     1 times
+[             PREFERREDWEAPON01][Constant:                1 B] Used     1 times
+[                          RKTP][Constant:                4 B] Used     1 times
+[                         V_MOV][Constant:                1 B] Used     1 times
+[                          AHRD][Constant:                4 B] Used     1 times
+[                         GDPUP][Constant:                4 B] Used     1 times
+[                         GDPDN][Constant:                4 B] Used     1 times
+[                        SAWMDT][Constant:                4 B] Used     1 times
+[                      GDTRNSPD][Constant:                4 B] Used     1 times
+[                       GDBNAME][Constant:               64 B] Used     1 times
+[                     USEREGION][Constant:                6 B] Used     1 times
+[ LEVELEXITDESTINATIONLEVELNAME][Constant:                1 B] Used     1 times
+[                       FALLOFF][Constant:                1 B] Used     1 times
+[                      ALERTAIS][Constant:                5 B] Used     1 times
+[                     ALARMTIME][Constant:                4 B] Used     1 times
+[                 FLAREPARTICLE][Constant:               49 B] Used     1 times
+[                          RKBY][Constant:                4 B] Used     1 times
+[                    DMIMDAMRAD][Constant:                4 B] Used     1 times
+[                          SKTY][Constant:                4 B] Used     1 times
+[                    DMEXACTRAD][Constant:                4 B] Used     1 times
+[                 STARTGASSOUND][Constant:                7 B] Used     1 times
+[                STANDDOWNSTATE][Constant:                1 B] Used     1 times
+[                      DMIMNAME][Constant:               58 B] Used     1 times
+[              PREFERREDPICKUP2][Constant:                1 B] Used     1 times
+[                      GDGASMED][Constant:               57 B] Used     1 times
+[                      INERTIAY][Constant:                4 B] Used     1 times
+[             PREFERREDWEAPON10][Constant:                1 B] Used     1 times
+[                      BOOMTIME][Constant:                4 B] Used     1 times
+[              WARCLUBRANGEDIST][Constant:                4 B] Used     1 times
+[                          RKBP][Constant:                4 B] Used     1 times
+[                     ABORTMODE][Constant:                7 B] Used     1 times
+[                        SUWDDS][Constant:                4 B] Used     1 times
+[        ACTOR_ANIM_TRANSITIONS][Constant:              184 B] Used     1 times
+[               SPARKLEPARTICLE][Constant:               52 B] Used     1 times
+[                    IDENTIFIER][Constant:                1 B] Used     1 times
+[             PREFERREDWEAPON08][Constant:                1 B] Used     1 times
+[                  LOOPGASSOUND][Constant:                7 B] Used     1 times
+[               CHARGEWAVESOUND][Constant:                7 B] Used     1 times
+[                  CASTSSHADOWS][Constant:                5 B] Used     1 times
+[                       SUNTYPE][Constant:                1 B] Used     1 times
+[                 BOREACTORNAME][Constant:               59 B] Used     1 times
+[                       REGIONS][Constant:                1 B] Used     1 times
+[                           FZR][Constant:                4 B] Used     1 times
+[                       HOLDMOD][Constant:                4 B] Used     1 times
+[             PREFERREDWEAPON05][Constant:                1 B] Used     1 times
+[                          SKBY][Constant:                4 B] Used     1 times
+[                          AHRR][Constant:                4 B] Used     1 times
+[              PREFERREDPICKUP1][Constant:                1 B] Used     1 times
+[             PREFERREDWEAPON00][Constant:                1 B] Used     1 times
+[                    GDGASSMALL][Constant:               55 B] Used     1 times
+[                    DMIMACTRAD][Constant:                4 B] Used     1 times
+[             PREFERREDWEAPON07][Constant:                1 B] Used     1 times
+[                          MMDS][Constant:              558 B] Used     1 times
+[                      INERTIAX][Constant:                4 B] Used     1 times
+[               GDGASSTREAMNAME][Constant:               55 B] Used     1 times
+[                  SPINFRICTION][Constant:                4 B] Used     1 times
+[                           SRZ][Constant:                4 B] Used     1 times
+[                   POISONARROW][Constant:               58 B] Used     1 times
+[                   RESPAWNTIME][Constant:                4 B] Used     1 times
+[                 BALLISTICNAME][Constant:               49 B] Used     1 times
+[                         V_ORD][Constant:                1 B] Used     1 times
+[                     PLATFORMS][Constant:                2 B] Used     1 times
+[                     DMEXPNAME][Constant:               66 B] Used     1 times
+[                       DMTMOUT][Constant:                4 B] Used     1 times
+[                    DMEXDAMRAD][Constant:                4 B] Used     1 times
+[                        DMIMTM][Constant:                4 B] Used     1 times
+[                 CROSSHAIRNAME][Constant:               65 B] Used     1 times
+[                  DMIMPTIMEOUT][Constant:                4 B] Used     1 times
+[                          MRSS][Constant:                4 B] Used     1 times
+[                         PITCH][Constant:                4 B] Used     1 times
+[             PREFERREDWEAPON06][Constant:                1 B] Used     1 times
+[             PREFERREDWEAPON02][Constant:                1 B] Used     1 times
+[             PREFERREDWEAPON03][Constant:                1 B] Used     1 times
+[             PREFERREDWEAPON04][Constant:                1 B] Used     1 times
+[             PREFERREDWEAPON09][Constant:                1 B] Used     1 times
+[             PREFERREDWEAPON11][Constant:                1 B] Used     1 times
+[             PREFERREDWEAPON12][Constant:                1 B] Used     1 times
+[                     SHELLNAME][Constant:               54 B] Used     1 times
+[                    RIDERPOINT][Constant:               11 B] Used     1 times
+[                          UCOG][Constant:                6 B] Used     1 times
+[                          ROLL][Constant:                4 B] Used     1 times
+[               CHARGEFULLSOUND][Constant:                7 B] Used     1 times
+[                        FTNAME][Constant:               62 B] Used     1 times
+[              GRAPPLEIDLESOUND][Constant:                7 B] Used     1 times
+[                     GDMOVESPD][Constant:                4 B] Used     1 times
+[                      GDJMPSPD][Constant:                4 B] Used     1 times
+[                         GDFOV][Constant:                4 B] Used     1 times
+[                    GDBOMBNAME][Constant:               47 B] Used     1 times
+[                    GDGASLARGE][Constant:               55 B] Used     1 times
+[                 MINSTATICDIST][Constant:                4 B] Used     1 times
+[                        CUTOFF][Constant:                4 B] Used     1 times
+[                      BOMBMODE][Constant:                7 B] Used     1 times
+[                           YAW][Constant:                4 B] Used     1 times
+[                       GASMODE][Constant:                7 B] Used     1 times
+[                      LUREMODE][Constant:                7 B] Used     1 times
+[                     LURESOUND][Constant:                7 B] Used     1 times
+[                   ENDGASSOUND][Constant:                7 B] Used     1 times
+[                  COLLIDESOUND][Constant:                5 B] Used     1 times
+[               LEVELEXITRADIUS][Constant:                4 B] Used     1 times
+[                     SPINSOUND][Constant:                7 B] Used     1 times
+[                     RIDERNAME][Constant:               56 B] Used     1 times
+[              PREFERREDPICKUP3][Constant:                1 B] Used     1 times
+[              PREFERREDPICKUP4][Constant:                1 B] Used     1 times
+[                        RANDOM][Constant:                6 B] Used     1 times
+[                       NGTMOUT][Constant:                4 B] Used     1 times
+[                     SHOWZONES][Constant:                6 B] Used     1 times
+[                     LASTSTAGE][Constant:                6 B] Used     1 times
+[                          SUWD][Constant:                4 B] Used     1 times
+[                        SUWMDT][Constant:                4 B] Used     1 times
+[                          SUWC][Constant:                4 B] Used     1 times
+[                          SAWC][Constant:                4 B] Used     1 times
+[                         FIDMT][Constant:                4 B] Used     1 times
+[                          FIDC][Constant:                4 B] Used     1 times
+[                         SAWSS][Constant:                4 B] Used     1 times
+[                           LZR][Constant:                4 B] Used     1 times
+[                           SLZ][Constant:                4 B] Used     1 times
+[                          MDMG][Constant:                4 B] Used     1 times
+[                           FOV][Constant:                4 B] Used     1 times
+[                   LOCKONSOUND][Constant:                7 B] Used     1 times
+[                          SKTP][Constant:                4 B] Used     1 times
+[                          RKTY][Constant:                4 B] Used     1 times
+[                          SKBP][Constant:                4 B] Used     1 times
+[                     SMEXPNAME][Constant:               67 B] Used     1 times
+[                       ARMTIME][Constant:                4 B] Used     1 times
+[                        RADIUS][Constant:                4 B] Used     1 times
+[                        IMPPWR][Constant:                4 B] Used     1 times
+[                        UDMASS][Constant:                5 B] Used     1 times
+[                          TDAM][Constant:                4 B] Used     1 times
+[                          DDEN][Constant:                1 B] Used     1 times
+[                         V_RPT][Constant:                1 B] Used     1 times
+[                         V_DEL][Constant:                5 B] Used     1 times

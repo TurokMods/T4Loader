@@ -102,10 +102,10 @@ int main(int ArgC,const char* ArgV[])
         if(!BlockTypeConstant[Strs[i]])
         {
             MinMax& m = BlockTypeSizeRange[Strs[i]];
-            Str0 = Format("Min: %5d B Max %5d B",m.Min,m.Max);
+            Str0 = Format("Min: %7d B Max %7d B",m.Min,m.Max);
         }
-        else Str0 = Format("Constant: %12d B",BlockTypeSizes[Strs[i]]);
-        printf("[%25s][%s] Used %5d times\n",Strs[i].c_str(),Str0.c_str(),Counts[i]);
+        else Str0 = Format("Constant: %16d B",BlockTypeSizes[Strs[i]]);
+        printf("[%30s][%s] Used %5d times\n",Strs[i].c_str(),Str0.c_str(),Counts[i]);
     }
 
 	//cin.ignore(std::numeric_limits<streamsize>::max(),'\n');
