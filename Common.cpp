@@ -1,5 +1,6 @@
 #include "Common.h"
 #include <stdarg.h>
+#include <memory.h>
 
 namespace T4
 {
@@ -9,10 +10,10 @@ namespace T4
 		va_start(Args,Txt);
 		char Str[512];
 		memset(Str,0,512);
-        #ifdef __APPLE__
-        vsnprintf(Str,512,Txt,Args);
-        #else
+        #if defined(WIN32) || defined(_WIN32) || defined(__WIN32) && !defined(__CYGWIN__)
 		vsnprintf_s(Str,512,Txt,Args);
+		#else
+		vsnprintf(Str,512,Txt,Args);
         #endif
 		va_end(Args);
 		string R(Str);

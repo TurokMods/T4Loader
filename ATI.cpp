@@ -1,5 +1,6 @@
 #include "ATI.h"
 #include "Common.h"
+#include "memory.h"
 
 namespace T4
 {
@@ -14,10 +15,10 @@ namespace T4
 	bool ATI::Load(const char* File)
 	{
 		FILE* fp = 0;
-        #ifdef __APPLE__
-        fp = fopen(File,"rb");
-        #else
+        #if defined(WIN32) || defined(_WIN32) || defined(__WIN32) && !defined(__CYGWIN__)
         fopen_s(&fp,File,"rb");
+        #else
+        fp = fopen(File,"rb");
         #endif
         
 		if(!fp)
