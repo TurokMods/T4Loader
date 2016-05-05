@@ -1,5 +1,5 @@
-#include "ATI.h"
-#include "Common.h"
+#include "T4Loader/ATI.h"
+#include "T4Loader/Common.h"
 using namespace T4;
 
 #include <iostream>

@@ -1,5 +1,5 @@
-#include "ActorInstance.h"
-#include "ATI.h"
+#include "T4Loader/ActorInstance.h"
+#include "T4Loader/ATI.h"
 
 namespace T4
 {
