@@ -2,16 +2,16 @@ workspace "T4Loader"
     location "build"
     configurations { "Debug", "Release" }
     filter { "configurations:Debug" }
-      targetdir "bin/debug"
+      targetdir "debug"
 
     filter { "configurations:Release" }
-      targetdir "bin/release"
+      targetdir "release"
 
 	project "T4Loader"
 	  kind "StaticLib"
 	  language "C++"
-	  files {"**.h", "**.cpp" }
-	  includedirs {"/"}
+	  files {"include/**.h", "src/**.cpp" }
+	  includedirs {"include"}
 
 	  filter { "configurations:Debug" }
         defines { "DEBUG" }
