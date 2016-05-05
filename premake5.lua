@@ -1,4 +1,4 @@
-workspace "T4Loader"
+solution "T4Loader"
   location "build"
   configurations { "Debug", "Release" }
   filter { "configurations:Debug" }
@@ -25,13 +25,13 @@ workspace "T4Loader"
     configuration {"linux"} 
       buildoptions {"-std=c++11"}
 
-	project "T4Loader"
-	  kind "StaticLib"
-	  language "C++"
-	  files { "include/**.h", "src/**.cpp" }
-	  includedirs { "include" }
+  project "T4Loader"
+    kind "SharedLib"
+    language "C++"
+    files { "include/**.h", "src/**.cpp" }
+    includedirs { "include" }
 
-	  filter { "configurations:Debug" }
+    filter { "configurations:Debug" }
       defines { "DEBUG" }
       flags { "Symbols" }
 
