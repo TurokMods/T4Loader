@@ -1,6 +1,6 @@
-#include "ATI.h"
-#include "Common.h"
-#include "memory.h"
+#include "T4Loader/ATI.h"
+#include "T4Loader/Common.h"
+#include <memory.h>
 
 namespace T4
 {
