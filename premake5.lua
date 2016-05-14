@@ -10,9 +10,9 @@ solution "T4Loader"
   project "Test"
     kind "ConsoleApp"
     language "C++"
-    files { "test.cpp" }
+    files { "Src/TestApp/**.h", "Src/TestApp/**.cpp" }
     links { "T4Loader" }
-    includedirs {"include"}
+    includedirs { "Src" }
 
     filter { "configurations:Debug" }
       defines { "DEBUG" }
@@ -28,7 +28,7 @@ solution "T4Loader"
   project "T4Loader"
     kind "SharedLib"
     language "C++"
-    files { "include/**.h", "src/**.cpp" }
+    files { "Src/T4Loader/**.h", "Src/T4Loader/**.cpp" }
     includedirs { "include" }
 
     filter { "configurations:Debug" }

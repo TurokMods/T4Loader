@@ -1,5 +1,5 @@
 #pragma once
-#include "T4Loader/ATITypes.h"
+#include "ATITypes.h"
 
 namespace T4
 {

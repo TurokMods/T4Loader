@@ -5,8 +5,8 @@
 #include <string>
 using namespace std;
 
-#include "T4Loader/ATITypes.h"
-#include "T4Loader/ActorInstance.h"
+#include "ATITypes.h"
+#include "ActorInstance.h"
 
  namespace T4
  {
