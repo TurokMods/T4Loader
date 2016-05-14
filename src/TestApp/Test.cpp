@@ -129,7 +129,7 @@ int main(int ArgC,const char* ArgV[])
     unordered_map<string,string> Notes;
     for(unordered_map<string,vector<ATIBlock*> >::iterator i = BlockData.begin();i != BlockData.end();i++)
     {
-        printf("Analyzing block type: %s: ",i->first.c_str());
+        printf("Analyzing block type: %30s: ",i->first.c_str());
         
         bool   ConstSize = BlockTypeConstant [i->first];
         size_t Size      = BlockTypeSizes    [i->first];

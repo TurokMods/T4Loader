@@ -1,13 +1,10 @@
-Program analyzed every .atr file in the game and encountered 1107 block types.
-Once I find out how to know if a block has child blocks programmatically there
+Program analyzed every .atr file in the game (2033 files) and encountered 1107 block types. Once I find out how to know if a block has child blocks programmatically there
 will be more block types and more block header types.
 
 This data can be used to learn more about the .ATI/.ATR formats, and more about
 how to change the behavior of the game through these formats.
 
--------------------------------------------------------------------------------
-||          BLOCK ID           ||   BLOCK SIZE / SIZE RANGE  || USAGE  COUNT ||
--------------------------------------------------------------------------------
+1107 known block types
 [                         ACTOR][Min:       0 B Max  156349 B] Used  2033 times
 [                       VERSION][Constant:                4 B] Used  2028 times
 [                    ACTOR_CODE][Min:       0 B Max      25 B] Used  2003 times
@@ -1115,3 +1112,1111 @@ how to change the behavior of the game through these formats.
 [                          DDEN][Constant:                1 B] Used     1 times
 [                         V_RPT][Constant:                1 B] Used     1 times
 [                         V_DEL][Constant:                5 B] Used     1 times
+
+Analyzing block type:                     RELAXDELAY: float32: Min: 5.000000 Max 5.000000.
+Analyzing block type:                          V_DEL: Unsure...
+Analyzing block type:                          V_RPT: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                           DDEN: Byte: Min: 1 Max 1 (0x1 to 0x1).
+Analyzing block type:                           TDAM: float32: Min: 1.000000 Max 1.000000.
+Analyzing block type:                         UDMASS: Unsure...
+Analyzing block type:                         IMPPWR: float32: Min: 8.000000 Max 8.000000.
+Analyzing block type:                         RADIUS: float32: Min: 0.500000 Max 0.500000.
+Analyzing block type:                       DISTANCE: float32: Min: 5.000000 Max 100.000000.
+Analyzing block type:                        ARMTIME: float32: Min: 2.000000 Max 2.000000.
+Analyzing block type:                      SMEXPNAME: Unsure...
+Analyzing block type:                           SKBP: float32: Min: 0.500000 Max 0.500000.
+Analyzing block type:                           RKTY: float32: Min: 0.010000 Max 0.010000.
+Analyzing block type:                           SKTP: float32: Min: 3.250000 Max 3.250000.
+Analyzing block type:                    LOCKONSOUND: Unsure...
+Analyzing block type:                        MAXTURN: float32: Min: 0.200000 Max 0.700000.
+Analyzing block type:                  EXPLOSIONNAME: Unsure...
+Analyzing block type:                            FOV: float32: Min: 120.000000 Max 120.000000.
+Analyzing block type:                           MDMG: float32: Min: 50.000000 Max 50.000000.
+Analyzing block type:                    YRESOLUTION: int16: Min: 256 Max 256 (0x100 to 0x100).
+Analyzing block type:                    XRESOLUTION: int16: Min: 256 Max 256 (0x100 to 0x100).
+Analyzing block type:                            SLZ: float32: Min: 4.000000 Max 4.000000.
+Analyzing block type:                            LZR: float32: Min: 3.000000 Max 3.000000.
+Analyzing block type:                          SAWSS: float32: Min: 3.000000 Max 3.000000.
+Analyzing block type:                           FIDC: float32: Min: 0.000001 Max 0.000001.
+Analyzing block type:                          FIDMT: float32: Min: 10.000000 Max 10.000000.
+Analyzing block type:                           SAWC: float32: Min: 0.500000 Max 0.500000.
+Analyzing block type:                           SUWC: int32: Min: 0 Max 0.
+Analyzing block type:                         SUWMDT: float32: Min: 5.000000 Max 5.000000.
+Analyzing block type:                           SUWD: float32: Min: 8.000000 Max 8.000000.
+Analyzing block type:                      LASTSTAGE: Unsure...
+Analyzing block type:                      SHOWZONES: Unsure...
+Analyzing block type:                        NGTMOUT: float32: Min: 20.000000 Max 20.000000.
+Analyzing block type:                         RANDOM: Unsure...
+Analyzing block type:               PREFERREDPICKUP4: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:               PREFERREDPICKUP3: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                      RIDERNAME: Unsure...
+Analyzing block type:                      SPINSOUND: Unsure...
+Analyzing block type:                LEVELEXITRADIUS: float32: Min: 8.000000 Max 8.000000.
+Analyzing block type:                   COLLIDESOUND: Unsure...
+Analyzing block type:                    ENDGASSOUND: Unsure...
+Analyzing block type:                      LURESOUND: Unsure...
+Analyzing block type:                       LUREMODE: Unsure...
+Analyzing block type:                           YFOV: float32: Min: 60.000000 Max 60.000000.
+Analyzing block type:                        GASMODE: Unsure...
+Analyzing block type:                            YAW: int32: Min: 0 Max 0.
+Analyzing block type:                       BOMBMODE: Unsure...
+Analyzing block type:                         CUTOFF: float32: Min: 75.000000 Max 75.000000.
+Analyzing block type:                  MINSTATICDIST: float32: Min: 30.000000 Max 30.000000.
+Analyzing block type:                     GDGASLARGE: Unsure...
+Analyzing block type:                     GDBOMBNAME: Unsure...
+Analyzing block type:                          GDFOV: float32: Min: 95.000000 Max 95.000000.
+Analyzing block type:                       GDJMPSPD: float32: Min: 5.000000 Max 5.000000.
+Analyzing block type:                      GDMOVESPD: float32: Min: 5.000000 Max 5.000000.
+Analyzing block type:               GRAPPLEIDLESOUND: Unsure...
+Analyzing block type:                   PERTURBATION: float32: Min: 0.500000 Max 0.500000.
+Analyzing block type:                         FTNAME: Unsure...
+Analyzing block type:                      MODEFLAGS: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                        OFFSETZ: float32: Min: -2.000000 Max 0.000000.
+Analyzing block type:                        OFFSETX: int32: Min: 0 Max 0.
+Analyzing block type:                     WAVENUMBER: Byte: Min: 1 Max 1 (0x1 to 0x1).
+Analyzing block type:                CHARGEFULLSOUND: Unsure...
+Analyzing block type:                         SETREG: Unsure...
+Analyzing block type:                    FOLLOWSPATH: Unsure...
+Analyzing block type:                   WAITINTERVAL: float32: Min: 0.000000 Max 10.000000.
+Analyzing block type:                     ACTORNAME4: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                 ACTORQUANTITY4: Byte: Min: 255 Max 255 (0xFF to 0xFF).
+Analyzing block type:                     ACTORNAME3: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                 ACTORQUANTITY3: Byte: Min: 255 Max 255 (0xFF to 0xFF).
+Analyzing block type:                           ROLL: int32: Min: 0 Max 0.
+Analyzing block type:                   ACTORCHANCE3: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                      ACTOR3PS2: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                         ACTOR3: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                     ACTORNAME2: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                      ACTOR2PS2: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                     ACTORNAME1: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                           UCOG: Unsure...
+Analyzing block type:                 ACTORQUANTITY1: Byte: Min: 255 Max 255 (0xFF to 0xFF).
+Analyzing block type:                      ACTOR1PS2: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                     ACTORNAME0: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                 ACTORQUANTITY0: Byte: Min: 255 Max 255 (0xFF to 0xFF).
+Analyzing block type:                         ACTOR0: Unsure...
+Analyzing block type:                  SPECULARCOLOR: Unsure...
+Analyzing block type:                      USERMODES: Unsure...
+Analyzing block type:                          VBSPD: float32: Min: 1.000000 Max 2.000000.
+Analyzing block type:                        OFFZMAX: float32: Min: -175.000000 Max 250.000000.
+Analyzing block type:                        OFFZMIN: float32: Min: -75.000000 Max 50.000000.
+Analyzing block type:                           OFFY: float32: Min: 0.000000 Max 20.000000.
+Analyzing block type:                           OFFX: float32: Min: 0.000000 Max 20.000000.
+Analyzing block type:                          EXSPD: float32: Min: 20.000000 Max 40.000000.
+Analyzing block type:                     RIDERPOINT: Unsure...
+Analyzing block type:                           OPSD: Unsure...
+Analyzing block type:                         TAUPDT: float32: Min: 0.100000 Max 3.000000.
+Analyzing block type:                         TARGAN: Byte: Min: 45 Max 75 (0x2D to 0x4B).
+Analyzing block type:                        SHOOTFR: float32: Min: 0.000000 Max 0.250000.
+Analyzing block type:                   CAPTURESOUND: Unsure...
+Analyzing block type:                  DROPPEDSOUND1: Unsure...
+Analyzing block type:                      SHELLNAME: Unsure...
+Analyzing block type:              PREFERREDWEAPON12: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:              PREFERREDWEAPON11: Byte: Min: 1 Max 1 (0x1 to 0x1).
+Analyzing block type:              PREFERREDWEAPON09: Byte: Min: 3 Max 3 (0x3 to 0x3).
+Analyzing block type:              PREFERREDWEAPON04: Byte: Min: 8 Max 8 (0x8 to 0x8).
+Analyzing block type:              PREFERREDWEAPON03: Byte: Min: 9 Max 9 (0x9 to 0x9).
+Analyzing block type:              PREFERREDWEAPON02: Byte: Min: 6 Max 6 (0x6 to 0x6).
+Analyzing block type:              PREFERREDWEAPON06: Byte: Min: 6 Max 6 (0x6 to 0x6).
+Analyzing block type:                            C_A: float32: Min: 0.040000 Max 0.040000.
+Analyzing block type:                          PITCH: int32: Min: 0 Max 0.
+Analyzing block type:                            F_C: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                           F_ED: int32: Min: 0 Max 0.
+Analyzing block type:                           F_BD: int32: Min: 0 Max 0.
+Analyzing block type:                            F_F: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                            FWE: float32: Min: 1.000000 Max 1.000000.
+Analyzing block type:                            FWF: float32: Min: 1.000000 Max 1.000000.
+Analyzing block type:                            FGY: float32: Min: -1.000000 Max -1.000000.
+Analyzing block type:                            FGX: int32: Min: 0 Max 0.
+Analyzing block type:                           MRSS: float32: Min: 0.500000 Max 0.500000.
+Analyzing block type:                           IID2: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                           IID1: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                           ITYP: Byte: Min: 1 Max 1 (0x1 to 0x1).
+Analyzing block type:                   DMIMPTIMEOUT: float32: Min: 20.000000 Max 20.000000.
+Analyzing block type:                  CROSSHAIRNAME: Unsure...
+Analyzing block type:                         DMIMTM: float32: Min: 0.700000 Max 0.700000.
+Analyzing block type:                     DMEXDAMRAD: float32: Min: 18.000000 Max 18.000000.
+Analyzing block type:                        DMTMOUT: int32: Min: 0 Max 0.
+Analyzing block type:                      DMEXPNAME: Unsure...
+Analyzing block type:                   MINTHROWDIST: float32: Min: 5.000000 Max 8.501000.
+Analyzing block type:                    MAXHOLDTIME: float32: Min: 2.000000 Max 2.010000.
+Analyzing block type:                      PLATFORMS: int16: Min: 256 Max 256 (0x100 to 0x100).
+Analyzing block type:                          MPART: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                  TIMETOTURNOFF: float32: Min: 2.000000 Max 2.000000.
+Analyzing block type:         TIMETOREACHMAXSTRENGTH: float32: Min: 2.000000 Max 2.000000.
+Analyzing block type:       PREVENTUSERCAMERACONTROL: Unsure...
+Analyzing block type:                          V_ORD: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                  BALLISTICNAME: Unsure...
+Analyzing block type:         PLAYERCAMERAVERTOFFSET: float32: Min: 5.000000 Max 5.000000.
+Analyzing block type:         PLAYERCAMERAHORZOFFSET: float32: Min: 5.000000 Max 5.000000.
+Analyzing block type:                    MAXSTRENGTH: float32: Min: 1.000000 Max 1.000000.
+Analyzing block type:      BULLET_BIRDMISSILE_DAMAGE: float32: Min: 5.000000 Max 5.000000.
+Analyzing block type:             BULLET_BIRD_DAMAGE: float32: Min: 5.000000 Max 5.000000.
+Analyzing block type:           BULLET_NORMAL_DAMAGE: float32: Min: 5.000000 Max 5.000000.
+Analyzing block type:     BULLET_ENEMY_BIRD_VELOCITY: float32: Min: 400.000000 Max 400.000000.
+Analyzing block type:           BULLET_BIRD_VELOCITY: float32: Min: 150.000000 Max 150.000000.
+Analyzing block type:                    RESPAWNTIME: float32: Min: 30.000000 Max 30.000000.
+Analyzing block type:                    POISONARROW: Unsure...
+Analyzing block type:         BULLET_NORMAL_VELOCITY: float32: Min: 25.000000 Max 25.000000.
+Analyzing block type:                  EASYAIMRADIUS: float32: Min: 10.000000 Max 10.000000.
+Analyzing block type:               JUMPLANDHEAVYSND: Unsure...
+Analyzing block type:             DEATHSWARMBOREDSND: Unsure...
+Analyzing block type:             PAINPOISONCHOKESND: Unsure...
+Analyzing block type:                   PAINLIGHTSND: Unsure...
+Analyzing block type:                       CLIMBSND: Unsure...
+Analyzing block type:                     FALLINGSND: Unsure...
+Analyzing block type:                  DROWNDEATHSND: Unsure...
+Analyzing block type:                            SRZ: float32: Min: 4.000000 Max 4.000000.
+Analyzing block type:            WATERSURFACEGOODSND: Unsure...
+Analyzing block type:                   EXITWATERSND: Unsure...
+Analyzing block type:              UNDERWATERSWIMSND: Unsure...
+Analyzing block type:                 SURFACESWIMSND: Unsure...
+Analyzing block type:                        TURNSND: Unsure...
+Analyzing block type:                         JMPSND: Unsure...
+Analyzing block type:                        FOOTSND: Unsure...
+Analyzing block type:              FLTMISSILEFIRESND: Unsure...
+Analyzing block type:                FLTNOMISSILESND: Unsure...
+Analyzing block type:                FLTWATERSKIMSND: Unsure...
+Analyzing block type:                 FLTHITWORLDSND: Unsure...
+Analyzing block type:                   FLTLOCKONSND: Unsure...
+Analyzing block type:                    FLTSPEEDSND: Unsure...
+Analyzing block type:                   SPINFRICTION: float32: Min: 0.500000 Max 0.500000.
+Analyzing block type:                    FLTRIGHTSND: Unsure...
+Analyzing block type:                     FLTLEFTSND: Unsure...
+Analyzing block type:                GDGASSTREAMNAME: Unsure...
+Analyzing block type:                   PT_CAMLPROLL: float32: Min: 1.000000 Max 1.000000.
+Analyzing block type:                       INERTIAX: int32: Min: 0 Max 0.
+Analyzing block type:                  PT_CAMLYEYOFF: float32: Min: 2.000000 Max 2.000000.
+Analyzing block type:                      PT_CAMLEL: float32: Min: 2.500000 Max 3.000000.
+Analyzing block type:                     PT_CAMLCLA: float32: Min: 2.000000 Max 2.000000.
+Analyzing block type:                     PT_CAM3EAC: float32: Min: 10.000000 Max 10.000000.
+Analyzing block type:                      PT_CAM3EL: float32: Min: 10.000000 Max 10.000000.
+Analyzing block type:                     PT_CAM3ETB: float32: Min: 8.000000 Max 8.000000.
+Analyzing block type:                     PT_CAM3FOV: float32: Min: 60.000000 Max 60.000000.
+Analyzing block type:                           MMDS: Unsure...
+Analyzing block type:                   PT_CAM1CROLL: float32: Min: 0.000000 Max 0.650000.
+Analyzing block type:                  PT_RIDERPOINT: Unsure...
+Analyzing block type:                   PT_RIDERNAME: Unsure...
+Analyzing block type:              PREFERREDWEAPON07: Byte: Min: 5 Max 5 (0x5 to 0x5).
+Analyzing block type:                          FLEXF: float32: Min: 0.000000 Max 1.000000.
+Analyzing block type:                    PT_WEAMGDMG: float32: Min: 100.000000 Max 200.000000.
+Analyzing block type:                    PT_WEAMSSPD: float32: Min: 100.000000 Max 200.000000.
+Analyzing block type:                    PT_FREDVACC: float32: Min: 0.750000 Max 3.000000.
+Analyzing block type:                     AMMOAMOUNT: Byte: Min: 0 Max 75 (0x0 to 0x4B).
+Analyzing block type:                       BASEXFIX: float32: Min: -90.000000 Max -90.000000.
+Analyzing block type:                   PT_FRFGDNBLN: float32: Min: 2.500000 Max 2.500000.
+Analyzing block type:                  BACKPITCHCORR: float32: Min: 0.000000 Max 15.000000.
+Analyzing block type:                   PT_FRFGUPBLN: float32: Min: 2.500000 Max 2.500000.
+Analyzing block type:                    MAXRUNSPEED: float32: Min: 8.000000 Max 16.000000.
+Analyzing block type:                  PT_FRFGDNAMNT: float32: Min: 10.000000 Max 10.000000.
+Analyzing block type:                   PT_FRFGDNSPD: float32: Min: 0.250000 Max 2.500000.
+Analyzing block type:                     PT_CAM1FOV: float32: Min: 50.000000 Max 75.000000.
+Analyzing block type:                   PT_FRFGUPSPD: float32: Min: 0.400000 Max 2.500000.
+Analyzing block type:                      PT_FRVDMP: float32: Min: 0.950000 Max 0.950000.
+Analyzing block type:                     DMIMACTRAD: float32: Min: 10.000000 Max 10.000000.
+Analyzing block type:                      PT_FRHDMP: float32: Min: 0.950000 Max 0.950000.
+Analyzing block type:                           AS_S: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                      PT_FRUACC: float32: Min: 1.600000 Max 4.000000.
+Analyzing block type:                        TARGERR: float32: Min: 0.000000 Max 5.000000.
+Analyzing block type:                      PT_FRHACC: float32: Min: 0.350000 Max 3.000000.
+Analyzing block type:                     PT_FRSDMIN: float32: Min: 0.400000 Max 2.000000.
+Analyzing block type:                       PT_ACSTN: float32: Min: 10.000000 Max 20.000000.
+Analyzing block type:                     GDGASSMALL: Unsure...
+Analyzing block type:                       PT_WOSTN: float32: Min: 5.000000 Max 30.000000.
+Analyzing block type:                           SNA1: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                   HEALTHAMOUNT: float32: Min: 0.000000 Max 50.000000.
+Analyzing block type:                 GRAVITYFACTORX: float32: Min: 1.000000 Max 1.000000.
+Analyzing block type:                       PT_WODAM: float32: Min: 25.000000 Max 34.000000.
+Analyzing block type:                         RELROT: Unsure...
+Analyzing block type:   STERACOSAUR_DASHRECHARGETIME: float32: Min: 5.000000 Max 5.000000.
+Analyzing block type:                    TESSELATION: Byte: Min: 128 Max 128 (0x80 to 0x80).
+Analyzing block type:          STERACOSAUR_DASHSPEED: float32: Min: 18.000000 Max 18.000000.
+Analyzing block type:                  NEARTIPYAWMIN: float32: Min: -30.000000 Max -30.000000.
+Analyzing block type:     STERACOSAUR_CAMERADISTANCE: float32: Min: 8.000000 Max 10.000000.
+Analyzing block type:       STERACOSAUR_CAMERAHEIGHT: float32: Min: 3.000000 Max 5.000000.
+Analyzing block type:            RAPTOR_JUMPVELOCITY: float32: Min: 15.000000 Max 15.000000.
+Analyzing block type:                 NEARTIPYAWAXIS: Byte: Min: 3 Max 5 (0x3 to 0x5).
+Analyzing block type:             RAPTOR_MAXRUNSPEED: float32: Min: 14.000000 Max 14.000000.
+Analyzing block type:                    CLIMB_DECEL: float32: Min: 0.200000 Max 0.200000.
+Analyzing block type:                        OVERSAG: int32: Min: 0 Max 0.
+Analyzing block type:                           A_FL: Byte: Min: 0 Max 4 (0x0 to 0x4).
+Analyzing block type:                    CLIMB_ACCEL: float32: Min: 0.800000 Max 0.800000.
+Analyzing block type:                    DROWNDAMAGE: float32: Min: 5.000000 Max 5.000000.
+Analyzing block type:                  DROWNINTERVAL: float32: Min: 2.000000 Max 2.000000.
+Analyzing block type:               DROWNINITIALTIME: float32: Min: 10.000000 Max 10.000000.
+Analyzing block type:                      SWIMSPEED: float32: Min: 5.000000 Max 5.000000.
+Analyzing block type:             FALLDAMAGEMAXSPEED: float32: Min: 80.000000 Max 80.000000.
+Analyzing block type:           MAXCROUCHSTRAFESPEED: float32: Min: 3.000000 Max 8.000000.
+Analyzing block type:                   JUMPVELOCITY: float32: Min: 12.000000 Max 30.000000.
+Analyzing block type:                  AMMOUPG2SLOT4: Unsure...
+Analyzing block type:            MAXGUIDEDDEVICEAMMO: Byte: Min: 0 Max 1 (0x0 to 0x1).
+Analyzing block type:                 MAXGRENADEAMMO: Byte: Min: 0 Max 10 (0x0 to 0xA).
+Analyzing block type:                MAXLAUNCHERAMMO: Byte: Min: 0 Max 4 (0x0 to 0x4).
+Analyzing block type:                 MAXMINIGUNAMMO: Byte: Min: 0 Max 5 (0x0 to 0x5).
+Analyzing block type:                 MAXSHOTGUNAMMO: Byte: Min: 0 Max 3 (0x0 to 0x3).
+Analyzing block type:                  MAXPISTOLAMMO: Byte: Min: 0 Max 5 (0x0 to 0x5).
+Analyzing block type:                  SPEEDOFFSOUND: Unsure...
+Analyzing block type:                 ENTERRAGESOUND: Unsure...
+Analyzing block type:                 JUMPBOOTSSOUND: Unsure...
+Analyzing block type:                  EWFLASHCHANCE: Byte: Min: 0 Max 10 (0x0 to 0xA).
+Analyzing block type:             POISONRECOVERSOUND: Unsure...
+Analyzing block type:                     TAUNTSOUND: Unsure...
+Analyzing block type:            CLOAKINGBELTONSOUND: Unsure...
+Analyzing block type:              DEATHHELMOFFSOUND: Unsure...
+Analyzing block type:                     SEQUENTIAL: Unsure...
+Analyzing block type:               DEATHHELMONSOUND: Unsure...
+Analyzing block type:              SHIELDDAMAGESOUND: Unsure...
+Analyzing block type:              SHIELDACTIVESOUND: Unsure...
+Analyzing block type:                       SNAPSHOT: Unsure...
+Analyzing block type:                  AMMOUPG2SLOT7: Unsure...
+Analyzing block type:                 TOTALSPAWNSPS2: Byte: Min: 255 Max 255 (0xFF to 0xFF).
+Analyzing block type:                  AMMOUPG0SLOT7: Unsure...
+Analyzing block type:                            IPP: Byte: Min: 255 Max 255 (0xFF to 0xFF).
+Analyzing block type:                         RSPWNT: float32: Min: -1.000000 Max 40.000000.
+Analyzing block type:                  UPGRADE1SLOT7: Unsure...
+Analyzing block type:                  GREENTEAMMESH: Unsure...
+Analyzing block type:              BOUNCERELATIVETO2: Byte: Min: 0 Max 1 (0x0 to 0x1).
+Analyzing block type:                    WEAPONSLOT7: Unsure...
+Analyzing block type:                  AMMOUPG2SLOT6: Unsure...
+Analyzing block type:                    USEPRIMARY5: Unsure...
+Analyzing block type:                         STSPDR: float32: Min: 0.000000 Max 1.000000.
+Analyzing block type:                      EYEHEIGHT: float32: Min: 0.400000 Max 2.250000.
+Analyzing block type:                  AMMOUPG1SLOT6: Unsure...
+Analyzing block type:           STARTSOFFWITHWEAPON6: Unsure...
+Analyzing block type:                  ENTERWATERSND: Unsure...
+Analyzing block type:                  UPGRADE2SLOT6: Unsure...
+Analyzing block type:                     PT_CAM3LAL: float32: Min: 10.000000 Max 10.000000.
+Analyzing block type:                   BACKPITCHMIN: float32: Min: -90.000000 Max 0.000000.
+Analyzing block type:                    WEAPONSLOT6: Unsure...
+Analyzing block type:              POSITIONYUPGRADE2: int32: Min: 0 Max 0.
+Analyzing block type:                    WEAPONSLOT5: Unsure...
+Analyzing block type:                   RAGEENDSOUND: Unsure...
+Analyzing block type:                  AMMOUPG1SLOT4: Unsure...
+Analyzing block type:                         W_YLAY: Byte: Min: 0 Max 3 (0x0 to 0x3).
+Analyzing block type:                     RANDWOBBLE: float32: Min: 2.000000 Max 2.000000.
+Analyzing block type:                  AMMOUPG0SLOT4: Unsure...
+Analyzing block type:                    TOTALSPAWNS: Byte: Min: 255 Max 255 (0xFF to 0xFF).
+Analyzing block type:                  UPGRADE2SLOT4: Unsure...
+Analyzing block type:                       HEADZFIX: float32: Min: -90.000000 Max 0.000000.
+Analyzing block type:                    WEAPONSLOT4: Unsure...
+Analyzing block type:              PREFERREDWEAPON00: Byte: Min: 5 Max 5 (0x5 to 0x5).
+Analyzing block type:           STARTSOFFWITHWEAPON3: Unsure...
+Analyzing block type:               PREFERREDPICKUP1: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                  UPGRADE2SLOT3: Unsure...
+Analyzing block type:           CLOAKINGBELTOFFSOUND: Unsure...
+Analyzing block type:                    WEAPONSLOT3: Unsure...
+Analyzing block type:                  UPGRADE2SLOT2: Unsure...
+Analyzing block type:       LOGICINITIALATTACKCHANCE: Byte: Min: 0 Max 10 (0x0 to 0xA).
+Analyzing block type:                  UPGRADE1SLOT2: Unsure...
+Analyzing block type:                     TIPTORQUEZ: int32: Min: 0 Max 0.
+Analyzing block type:                  AMMOUPG2SLOT1: Unsure...
+Analyzing block type:                         FDMULT: float32: Min: 0.000000 Max 1.000000.
+Analyzing block type:                  UPGRADE2SLOT5: Unsure...
+Analyzing block type:                   MAXTHROWDIST: float32: Min: 12.000000 Max 30.000999.
+Analyzing block type:                     PT_FRSDMAX: float32: Min: 1.000000 Max 8.000000.
+Analyzing block type:                  AMMOUPG0SLOT1: Byte: Min: 0 Max 5 (0x0 to 0x5).
+Analyzing block type:              RAPTOR_EYEZOFFSET: int32: Min: 0 Max 0.
+Analyzing block type:           STARTSOFFWITHWEAPON1: Unsure...
+Analyzing block type:                  PAINMEDIUMSND: Unsure...
+Analyzing block type:                  UPGRADE2SLOT1: Unsure...
+Analyzing block type:                ACCESSORYPOINT2: Unsure...
+Analyzing block type:                          W_FSX: float32: Min: 1.000000 Max 1.000000.
+Analyzing block type:                  UPGRADE1SLOT1: Unsure...
+Analyzing block type:                         SPINTF: int32: Min: 0 Max 0.
+Analyzing block type:                    WEAPONSLOT1: Unsure...
+Analyzing block type:            TWOHANDEDWEAPONBASE: Unsure...
+Analyzing block type:                  AMMOUPG1SLOT0: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:           STARTSOFFWITHWEAPON0: Unsure...
+Analyzing block type:                    WEAPONSLOT0: Unsure...
+Analyzing block type:                    ADDGRAVITYZ: int32: Min: 0 Max 0.
+Analyzing block type:                    ADDGRAVITYY: int32: Min: 0 Max 0.
+Analyzing block type:                    ADDGRAVITYX: int32: Min: 0 Max 0.
+Analyzing block type:                        BOUNCEX: int32: Min: 0 Max 0.
+Analyzing block type:                 GRAVITYFACTORY: float32: Min: 1.000000 Max 1.000000.
+Analyzing block type:                    PATHINFIELD: int32: Min: 0 Max 0.
+Analyzing block type:                       PSMONOFF: Unsure...
+Analyzing block type:                  CIRCULARRAMPX: int32: Min: 0 Max 0.
+Analyzing block type:                 CIRCULARFIELDZ: int32: Min: 0 Max 0.
+Analyzing block type:             CIRCULARISRELATIVE: Unsure...
+Analyzing block type:                  INITIALRIPPLE: Byte: Min: 1 Max 1 (0x1 to 0x1).
+Analyzing block type:                 CIRCULAREFFECT: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                    PLANARRAMPY: int32: Min: 0 Max 0.
+Analyzing block type:                           AHRR: float32: Min: 3.000000 Max 3.000000.
+Analyzing block type:                   PLANARFIELDY: int32: Min: 0 Max 0.
+Analyzing block type:                           SKBY: int32: Min: 0 Max 0.
+Analyzing block type:               PLANARISRELATIVE: Unsure...
+Analyzing block type:                   PLANAREFFECT: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                      PATHINISH: Unsure...
+Analyzing block type:                     AXIALRAMPY: int32: Min: 0 Max 0.
+Analyzing block type:                    AXIALFIELDY: int32: Min: 0 Max 0.
+Analyzing block type:                        LDSOUND: Unsure...
+Analyzing block type:                    POINTEFFECT: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                   LINEARFIELDZ: int32: Min: 0 Max 0.
+Analyzing block type:               LINEARISRELATIVE: Unsure...
+Analyzing block type:                         TURNON: Unsure...
+Analyzing block type:                           R_NP: int32: Min: 0 Max 0.
+Analyzing block type:                           DRAG: float32: Min: 0.000000 Max 1.000000.
+Analyzing block type:                 LIGHTINTENSITY: float32: Min: 1.000000 Max 1.000000.
+Analyzing block type:                       CANCRAWL: Unsure...
+Analyzing block type:                           R_AT: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                      ACTOR0PS2: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:    MUZZLERIDINGYFACTORUPGRADE2: float32: Min: 0.100000 Max 0.100000.
+Analyzing block type:    MUZZLERIDINGXFACTORUPGRADE2: float32: Min: 0.100000 Max 0.100000.
+Analyzing block type:                      POINTRAMP: int32: Min: 0 Max 0.
+Analyzing block type:              PREFERREDWEAPON05: Byte: Min: 7 Max 7 (0x7 to 0x7).
+Analyzing block type:                AXIALISRELATIVE: Unsure...
+Analyzing block type:                  SCALEUPGRADE2: float32: Min: 1.000000 Max 1.000000.
+Analyzing block type:              POSITIONZUPGRADE2: float32: Min: -1.500000 Max -1.500000.
+Analyzing block type:                   PT_FRSDSTART: float32: Min: 0.600000 Max 4.500000.
+Analyzing block type:              POSITIONXUPGRADE2: int32: Min: 0 Max 0.
+Analyzing block type:              PATHRELEASE2SPEED: float32: Min: -1.000000 Max 0.000000.
+Analyzing block type:                  UPGRADE1SLOT0: Unsure...
+Analyzing block type:       USABLEUNDERWATERUPGRADE2: Unsure...
+Analyzing block type:                         TSPEED: int32: Min: 0 Max 0.
+Analyzing block type:                         SPINAY: float32: Min: 0.000000 Max 180.000000.
+Analyzing block type:             WEAPONNAMEUPGRADE2: Unsure...
+Analyzing block type:                  GAGROUPATTACK: Unsure...
+Analyzing block type:                   SPEEDONSOUND: Unsure...
+Analyzing block type:        AMMOUSEDPERSHOTUPGRADE1: Byte: Min: 1 Max 1 (0x1 to 0x1).
+Analyzing block type:                 YELLOWTEAMMESH: Unsure...
+Analyzing block type:                         ACTOR4: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                          W_SUB: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:           CLIMB_HORIZVIEWANGLE: float32: Min: 120.000000 Max 120.000000.
+Analyzing block type:                  SCALEUPGRADE1: float32: Min: 1.000000 Max 1.000000.
+Analyzing block type:              POSITIONZUPGRADE1: float32: Min: -1.500000 Max -1.500000.
+Analyzing block type:                   ACTORCHANCE4: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                     HEADYAWMIN: float32: Min: -90.000000 Max 0.000000.
+Analyzing block type:              POSITIONXUPGRADE1: int32: Min: 0 Max 0.
+Analyzing block type:                  DEATHSHORTSND: Unsure...
+Analyzing block type:                         SMTYPE: Byte: Min: 0 Max 1 (0x0 to 0x1).
+Analyzing block type:             WEAPONTYPEUPGRADE1: Byte: Min: 0 Max 3 (0x0 to 0x3).
+Analyzing block type:                  UPGRADE1SLOT5: Unsure...
+Analyzing block type:                 CIRCULARFIELDX: int32: Min: 0 Max 0.
+Analyzing block type:                  BACKBONEINDEX: Byte: Min: 5 Max 255 (0x5 to 0xFF).
+Analyzing block type:        TWOHANDEDWEAPONUPGRADE1: Unsure...
+Analyzing block type:       USABLEUNDERWATERUPGRADE1: Unsure...
+Analyzing block type:                          STSPD: float32: Min: 0.000000 Max 1.500000.
+Analyzing block type:                  XROTATIONBONE: Byte: Min: 0 Max 3 (0x0 to 0x3).
+Analyzing block type:             WEAPONNAMEUPGRADE1: Unsure...
+Analyzing block type:        MUZZLERIDINGXFACTORBASE: float32: Min: 0.000000 Max 0.100000.
+Analyzing block type:                       HEADXFIX: float32: Min: -90.000000 Max 0.000000.
+Analyzing block type:                     PLAYERTYPE: Byte: Min: 0 Max 3 (0x0 to 0x3).
+Analyzing block type:                    USEPRIMARY1: Unsure...
+Analyzing block type:            AMMOUSEDPERSHOTBASE: Byte: Min: 0 Max 1 (0x0 to 0x1).
+Analyzing block type:                  POSITIONYBASE: float32: Min: -0.200000 Max 0.000000.
+Analyzing block type:                  POSITIONXBASE: float32: Min: 0.000000 Max 0.780000.
+Analyzing block type:         USABLEWHENCLIMBINGBASE: Unsure...
+Analyzing block type:                         ACTOR2: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:               RAPTOR_EYEHEIGHT: float32: Min: 2.000000 Max 3.000000.
+Analyzing block type:                         MPSMID: float32: Min: 25.000000 Max 50.000000.
+Analyzing block type:                 WEAPONNAMEBASE: Unsure...
+Analyzing block type:                         WEAPON: Byte: Min: 0 Max 13 (0x0 to 0xD).
+Analyzing block type:                          LTARG: Unsure...
+Analyzing block type:                        HOLDMOD: float32: Min: 0.500000 Max 0.500000.
+Analyzing block type:                   FLAPBEHAVIOR: Byte: Min: 1 Max 3 (0x1 to 0x3).
+Analyzing block type:                    FLYINGHOVER: Byte: Min: 0 Max 1 (0x0 to 0x1).
+Analyzing block type:                    FLIGHTSPEED: float32: Min: 1.000000 Max 75.000000.
+Analyzing block type:                    EVADEDAMAGE: Byte: Min: 0 Max 2 (0x0 to 0x2).
+Analyzing block type:                       BIRDFORM: Byte: Min: 0 Max 1 (0x0 to 0x1).
+Analyzing block type:                    PT_FREDHACC: float32: Min: 1.000000 Max 6.000000.
+Analyzing block type:                       TEAMNAME: Byte: Min: 0 Max 1 (0x0 to 0x1).
+Analyzing block type:                      FREEPATHY: Unsure...
+Analyzing block type:                  ALTERNATETYPE: Unsure...
+Analyzing block type:                          W_DSY: int32: Min: 0 Max 0.
+Analyzing block type:                            FZR: float32: Min: 3.750000 Max 3.750000.
+Analyzing block type:                       DRYCLICK: Unsure...
+Analyzing block type:                          W_DSC: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                            W_T: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                    PROVOKEONLY: Unsure...
+Analyzing block type:                          W_THI: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                     PICKUPTYPE: Byte: Min: 1 Max 56 (0x1 to 0x38).
+Analyzing block type:                          W_TMN: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:               POISONDEATHSOUND: Unsure...
+Analyzing block type:                     FOLLOWDIST: float32: Min: 6.000000 Max 6.000000.
+Analyzing block type:                          W_TMF: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                          W_FON: Unsure...
+Analyzing block type:                          SPEED: float32: Min: 0.300000 Max 20.000000.
+Analyzing block type:                        REGIONS: Byte: Min: 128 Max 128 (0x80 to 0x80).
+Analyzing block type:                  AFFECTSTARGET: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:              POISONDAMAGESOUND: Unsure...
+Analyzing block type:                    AXIALEFFECT: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                       KEEPADIS: Unsure...
+Analyzing block type:                           W_BM: Unsure...
+Analyzing block type:                         STATUS: Unsure...
+Analyzing block type:                           W_WC: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                  BOREACTORNAME: Unsure...
+Analyzing block type:                     ACTOR_CODE: Unsure...
+Analyzing block type:                 WEAPONTYPEBASE: Byte: Min: 0 Max 3 (0x0 to 0x3).
+Analyzing block type:                         STSAMN: float32: Min: 0.000000 Max 0.370000.
+Analyzing block type:                        STFRSPD: float32: Min: 0.000000 Max 0.070000.
+Analyzing block type:                         STFSPD: float32: Min: 0.000000 Max 1.000000.
+Analyzing block type:                        SUNTYPE: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                         STFALL: Unsure...
+Analyzing block type:                     PT_CAMLETB: float32: Min: 8.000000 Max 8.000000.
+Analyzing block type:                          LINKS: Unsure...
+Analyzing block type:                          STCHS: float32: Min: 0.000000 Max 1.000000.
+Analyzing block type:                        SPINCEX: float32: Min: 0.000000 Max 1.000000.
+Analyzing block type:                 BODYPARTPREFIX: Unsure...
+Analyzing block type:                   WEAPONPOINT2: Unsure...
+Analyzing block type:                SWITCHCOLLISION: Unsure...
+Analyzing block type:                   CASTSSHADOWS: Unsure...
+Analyzing block type:                  AMMOUPG2SLOT5: Byte: Min: 0 Max 5 (0x0 to 0x5).
+Analyzing block type:                    CANTELEPORT: Unsure...
+Analyzing block type:                        CREVADE: Unsure...
+Analyzing block type:                CHARGEWAVESOUND: Unsure...
+Analyzing block type:                  AMMOUPG0SLOT3: Unsure...
+Analyzing block type:                   LOOPGASSOUND: Unsure...
+Analyzing block type:              PREFERREDWEAPON08: Byte: Min: 4 Max 4 (0x4 to 0x4).
+Analyzing block type:                    EVADEATTACK: Byte: Min: 0 Max 2 (0x0 to 0x2).
+Analyzing block type:                   EVADEACQUIRE: Byte: Min: 0 Max 1 (0x0 to 0x1).
+Analyzing block type:                   ASSAULTFRONT: Unsure...
+Analyzing block type:                 MAXASSAULTDIST: float32: Min: 20.000000 Max 20.000000.
+Analyzing block type:                        PT_FRGR: float32: Min: 0.050000 Max 0.050000.
+Analyzing block type:                TORSOFLINCHBONE: Byte: Min: 3 Max 255 (0x3 to 0xFF).
+Analyzing block type:                       CALLSOUT: Unsure...
+Analyzing block type:                   RESPAWNSOUND: Unsure...
+Analyzing block type:                     BASEYAWMIN: float32: Min: -180.000000 Max -180.000000.
+Analyzing block type:                    GAGROUPNAME: Unsure...
+Analyzing block type:                              Z: int32: Min: 0 Max 0.
+Analyzing block type:                LEASHEDTOREGION: Unsure...
+Analyzing block type:                              X: int32: Min: 0 Max 0.
+Analyzing block type:                     IDENTIFIER: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                    DANCEAMOUNT: float32: Min: 1.000000 Max 3.000000.
+Analyzing block type:                   LOCKEDSTATUS: Byte: Min: 0 Max 1 (0x0 to 0x1).
+Analyzing block type:                     DOORSTATUS: Byte: Min: 0 Max 1 (0x0 to 0x1).
+Analyzing block type:                        SPINSTZ: float32: Min: 0.000000 Max 8500.000000.
+Analyzing block type:              MAXTECHWEAPONAMMO: Byte: Min: 0 Max 4 (0x0 to 0x4).
+Analyzing block type:                        EADHEAD: Unsure...
+Analyzing block type:    MUZZLERIDINGXFACTORUPGRADE1: float32: Min: 0.100000 Max 0.100000.
+Analyzing block type:                       ISSNIPER: Unsure...
+Analyzing block type:                          SCALE: Unsure...
+Analyzing block type:              SPAWNACTOR4CHANCE: Byte: Min: 0 Max 100 (0x0 to 0x64).
+Analyzing block type:                         TIPRDX: float32: Min: 0.000000 Max 3.000000.
+Analyzing block type:                SPARKLEPARTICLE: Unsure...
+Analyzing block type:              SPAWNACTOR3CHANCE: Byte: Min: 0 Max 100 (0x0 to 0x64).
+Analyzing block type:              SPAWNACTOR1CHANCE: Byte: Min: 10 Max 100 (0xA to 0x64).
+Analyzing block type:                        WADESND: Unsure...
+Analyzing block type:                      IGNORENAV: Unsure...
+Analyzing block type:            AMMOPERCLIPUPGRADE2: Byte: Min: 5 Max 5 (0x5 to 0x5).
+Analyzing block type:            SPAWNACTOR5VELOCITY: float32: Min: 3.000000 Max 3.000000.
+Analyzing block type:             FALLDAMAGEMINSPEED: float32: Min: 30.000000 Max 30.000000.
+Analyzing block type:            SPAWNACTOR2VELOCITY: float32: Min: 3.000000 Max 3.000000.
+Analyzing block type:                     BACKPPCORR: float32: Min: 0.000000 Max 90.000000.
+Analyzing block type:                           W_BC: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                   CALLOUTSOUND: Unsure...
+Analyzing block type:            SPAWNACTOR1VELOCITY: float32: Min: 2.000000 Max 3.000000.
+Analyzing block type:                    SPAWNACTOR5: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                    SPAWNACTOR4: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                    NORMALARROW: Unsure...
+Analyzing block type:                         SPINIZ: float32: Min: 0.000000 Max 300.000000.
+Analyzing block type:                    SPAWNACTOR3: Unsure...
+Analyzing block type:                      PT_WEAMGD: float32: Min: 0.150000 Max 0.250000.
+Analyzing block type:         ACTOR_ANIM_TRANSITIONS: Unsure...
+Analyzing block type:                    SPAWNACTOR2: Unsure...
+Analyzing block type:                      PT_FRDACC: float32: Min: 1.000000 Max 3.000000.
+Analyzing block type:                    SPAWNACTOR1: Unsure...
+Analyzing block type:                        HDSOUND: Unsure...
+Analyzing block type:                       SLOWTURN: Unsure...
+Analyzing block type:           STARTSOFFWITHWEAPON5: Unsure...
+Analyzing block type:                        TIPDOMZ: Unsure...
+Analyzing block type:                        MDSOUND: Unsure...
+Analyzing block type:                         SUWDDS: float32: Min: 5.000000 Max 5.000000.
+Analyzing block type:              ACTOR_TEXTURE_SET: Unsure...
+Analyzing block type:                USEHEADTRACKING: Unsure...
+Analyzing block type:                  DEFTRANSBLEND: float32: Min: 0.266667 Max 2.000000.
+Analyzing block type:                     HEADPYCORR: float32: Min: -90.000000 Max 90.000000.
+Analyzing block type:                     HEADPPCORR: float32: Min: 0.000000 Max 90.000000.
+Analyzing block type:                 CIRCULARFIELDY: int32: Min: 0 Max 0.
+Analyzing block type:                         SAGDOM: Unsure...
+Analyzing block type:                            SGR: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                      ACTOR4PS2: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                       HEADYFIX: float32: Min: -90.000000 Max 180.000000.
+Analyzing block type:                 ATTACKONBREACH: Unsure...
+Analyzing block type:                   ACTIVESPAWNS: Byte: Min: 255 Max 255 (0xFF to 0xFF).
+Analyzing block type:                    ONLYPTARGET: Unsure...
+Analyzing block type:                   BREACHRADIUS: float32: Min: -1.000000 Max -1.000000.
+Analyzing block type:                            FGZ: int32: Min: 0 Max 0.
+Analyzing block type:                       CUUCOVER: Unsure...
+Analyzing block type:                    EWTHROWDIST: float32: Min: 40.000000 Max 50.000000.
+Analyzing block type:                          FLEER: float32: Min: 10.000000 Max 40.000000.
+Analyzing block type:                   CANTBEPUSHED: Unsure...
+Analyzing block type:                        AIAVOID: Unsure...
+Analyzing block type:                      DFTURRETS: Unsure...
+Analyzing block type:                     ALWAYSWALK: Unsure...
+Analyzing block type:                CANBESWARMBORED: Unsure...
+Analyzing block type:                       IGNALBOX: Unsure...
+Analyzing block type:                           SFRE: float32: Min: 0.050000 Max 1.000000.
+Analyzing block type:               AUTOTURRETRADIUS: float32: Min: 5.000000 Max 500.000000.
+Analyzing block type:                 CANMONKEYCLIMB: Unsure...
+Analyzing block type:                     TURRETTYPE: Byte: Min: 0 Max 2 (0x0 to 0x2).
+Analyzing block type:                      ABORTMODE: Unsure...
+Analyzing block type:                           R_NK: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                     PLAYERMODE: Byte: Min: 0 Max 1 (0x0 to 0x1).
+Analyzing block type:                VISIONEYEHEIGHT: float32: Min: 0.000000 Max 7.000000.
+Analyzing block type:                  YROTATIONBONE: Byte: Min: 0 Max 2 (0x0 to 0x2).
+Analyzing block type:                    WEAPONSLOT2: Unsure...
+Analyzing block type:                 YROTATIONSPEED: float32: Min: 60.000000 Max 60.000000.
+Analyzing block type:                        TIPXFIX: float32: Min: -90.000000 Max -90.000000.
+Analyzing block type:                   MAXYROTATION: float32: Min: 45.000000 Max 180.000000.
+Analyzing block type:                      DAMPENING: float32: Min: 0.050000 Max 0.050000.
+Analyzing block type:                          A_SHL: int32: Min: 0 Max 0.
+Analyzing block type:                  UPGRADE1SLOT4: Unsure...
+Analyzing block type:                              Y: int32: Min: 0 Max 0.
+Analyzing block type:                          TIGMX: Unsure...
+Analyzing block type:                   WEAPONPOINT1: Unsure...
+Analyzing block type:                          DRAGE: float32: Min: 0.000000 Max 1.000000.
+Analyzing block type:                    WEAPONNAME1: Unsure...
+Analyzing block type:                           RKBP: float32: Min: 1.000000 Max 1.000000.
+Analyzing block type:                         SPINTS: int32: Min: 0 Max 0.
+Analyzing block type:                    BACKYAWAXIS: Byte: Min: 0 Max 5 (0x0 to 0x5).
+Analyzing block type:              USEGROUNDTRACKING: Unsure...
+Analyzing block type:                 ACTORQUANTITY2: Byte: Min: 255 Max 255 (0xFF to 0xFF).
+Analyzing block type:                 RAPTOR_TURNLAG: float32: Min: 0.035000 Max 0.035000.
+Analyzing block type:                     PT_CAM3LAC: float32: Min: 10.000000 Max 10.000000.
+Analyzing block type:                      TIPYAWMIN: float32: Min: -30.000000 Max -30.000000.
+Analyzing block type:           DEATHHELMACTIVESOUND: Unsure...
+Analyzing block type:                     TIPYAWAXIS: Byte: Min: 5 Max 5 (0x5 to 0x5).
+Analyzing block type:                     PT_CAM1ZPB: float32: Min: -2.000000 Max 0.000000.
+Analyzing block type:           STARTSOFFWITHWEAPON2: Unsure...
+Analyzing block type:                            F_T: float32: Min: 1.000000 Max 1.000000.
+Analyzing block type:                     ELASTICITY: float32: Min: 0.000000 Max 1.000000.
+Analyzing block type:               NEARTIPPITCHCORR: int32: Min: 0 Max 0.
+Analyzing block type:               WARCLUBRANGEDIST: float32: Min: 2.000000 Max 2.000000.
+Analyzing block type:                BOUNCEMAXSPEED2: int32: Min: 0 Max 0.
+Analyzing block type:                    PLANARRAMPX: int32: Min: 0 Max 0.
+Analyzing block type:                NEARTIPPITCHMAX: float32: Min: 20.000000 Max 30.000000.
+Analyzing block type:                     AXIALRAMPZ: int32: Min: 0 Max 0.
+Analyzing block type:     STERACOSAUR_MAXSTRAFESPEED: float32: Min: 5.000000 Max 11.000000.
+Analyzing block type:              NEARBASEPITCHAXIS: Byte: Min: 3 Max 4 (0x3 to 0x4).
+Analyzing block type:          MAXDARKMATTERCUBEAMMO: Byte: Min: 0 Max 1 (0x0 to 0x1).
+Analyzing block type:                       BOOMTIME: float32: Min: 20.000000 Max 20.000000.
+Analyzing block type:                         MPSFAR: float32: Min: 50.000000 Max 100.000000.
+Analyzing block type:                ACTOR_VARIABLES: Unsure...
+Analyzing block type:               ACTOR_PROPERTIES: Unsure...
+Analyzing block type:                   MAXXROTATION: float32: Min: 1.000000 Max 90.000000.
+Analyzing block type:                         MIRROR: Unsure...
+Analyzing block type:              NEARBASEPITCHCORR: float32: Min: -7.500000 Max 0.000000.
+Analyzing block type:                   NEARBASEZFIX: float32: Min: -90.000000 Max -90.000000.
+Analyzing block type:                  DROPPEDSOUND2: Unsure...
+Analyzing block type:                    WEAPONNAME5: Unsure...
+Analyzing block type:                  AMMOUPG2SLOT2: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                         HEALTH: Unsure...
+Analyzing block type:                  BASEPITCHCORR: float32: Min: -20.000000 Max -11.000000.
+Analyzing block type:                       CUOCOVER: Unsure...
+Analyzing block type:                 NEARBASEYAWMAX: float32: Min: 30.000000 Max 30.000000.
+Analyzing block type:        LOGICINITIALCOVERCHANCE: Byte: Min: 0 Max 9 (0x0 to 0x9).
+Analyzing block type:                       SPINMAXX: float32: Min: 0.000000 Max 90.000000.
+Analyzing block type:                     BASEYAWMAX: float32: Min: 180.000000 Max 180.000000.
+Analyzing block type:                         OFFUPT: float32: Min: 1.000000 Max 8.000000.
+Analyzing block type:                 HEADFLINCHBONE: Byte: Min: 5 Max 255 (0x5 to 0xFF).
+Analyzing block type:                       BASEZFIX: float32: Min: -90.000000 Max -90.000000.
+Analyzing block type:                      SPINMAXSY: float32: Min: 0.000000 Max 1.000000.
+Analyzing block type:                       BACKYFIX: float32: Min: -90.000000 Max 180.000000.
+Analyzing block type:                       COUNTERS: Byte: Min: 0 Max 2 (0x0 to 0x2).
+Analyzing block type:                       BASEYFIX: float32: Min: -90.000000 Max 0.000000.
+Analyzing block type:                AMMOPERCLIPBASE: Byte: Min: 1 Max 60 (0x1 to 0x3C).
+Analyzing block type:                    EWALTCHANCE: Byte: Min: 0 Max 5 (0x0 to 0x5).
+Analyzing block type:                ENEMYTURRETTYPE: Byte: Min: 0 Max 1 (0x0 to 0x1).
+Analyzing block type:                   ACTORCHANCE2: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                   WEAPONRANGE1: float32: Min: 0.000000 Max 1000.000000.
+Analyzing block type:              PREFERREDWEAPON10: Byte: Min: 2 Max 2 (0x2 to 0x2).
+Analyzing block type:                  BASEPITCHAXIS: Byte: Min: 3 Max 4 (0x3 to 0x4).
+Analyzing block type:                        TIPYFIX: int32: Min: 0 Max 0.
+Analyzing block type:                       BACKXFIX: float32: Min: -90.000000 Max 0.000000.
+Analyzing block type:                  LONGRANGEDIST: float32: Min: 25.000000 Max 999.000000.
+Analyzing block type:                       BOUNCENK: Byte: Min: 0 Max 1 (0x0 to 0x1).
+Analyzing block type:                       INERTIAY: int32: Min: 0 Max 0.
+Analyzing block type:                  BASEBONEINDEX: Byte: Min: 25 Max 255 (0x19 to 0xFF).
+Analyzing block type:                     ACTOR_MESH: Unsure...
+Analyzing block type:                       EWMODVEL: Unsure...
+Analyzing block type:                USETAILTRACKING: Unsure...
+Analyzing block type:                  MAXTEKBOWAMMO: Byte: Min: 0 Max 20 (0x0 to 0x14).
+Analyzing block type:                       GDGASMED: Unsure...
+Analyzing block type:                  UPGRADE1SLOT3: Unsure...
+Analyzing block type:                  PT_FRFGUPAMNT: float32: Min: 10.000000 Max 10.000000.
+Analyzing block type:                   NEARBASEYFIX: float32: Min: -90.000000 Max 0.000000.
+Analyzing block type:                   BACKPITCHMAX: float32: Min: 0.000000 Max 90.000000.
+Analyzing block type:                       BACKZFIX: float32: Min: -90.000000 Max 90.000000.
+Analyzing block type:                           COLS: Unsure...
+Analyzing block type:                         W_XLAY: Byte: Min: 0 Max 2 (0x0 to 0x2).
+Analyzing block type:                   TIPPITCHAXIS: Byte: Min: 3 Max 3 (0x3 to 0x3).
+Analyzing block type:                    AXIALFIELDZ: int32: Min: 0 Max 0.
+Analyzing block type:                          STAMN: float32: Min: 0.000000 Max 0.080000.
+Analyzing block type:               PREFERREDPICKUP2: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                     HEADYAWMAX: float32: Min: 0.000000 Max 90.000000.
+Analyzing block type:                       DMIMNAME: Unsure...
+Analyzing block type:                   HEADPITCHMAX: float32: Min: 0.000000 Max 90.000000.
+Analyzing block type:                     POINTFIELD: int32: Min: 0 Max 0.
+Analyzing block type:                        CHEVADE: Unsure...
+Analyzing block type:                        SYANGLE: float32: Min: 0.000000 Max 180.000000.
+Analyzing block type:                  CIRCULARRAMPY: int32: Min: 0 Max 0.
+Analyzing block type:             CROUCHATTACKCHANCE: Byte: Min: 0 Max 50 (0x0 to 0x32).
+Analyzing block type:                  NEARTIPYAWMAX: float32: Min: 30.000000 Max 30.000000.
+Analyzing block type:                          AD_TI: Unsure...
+Analyzing block type:                  EWSECMINFIRES: Byte: Min: 1 Max 1 (0x1 to 0x1).
+Analyzing block type:                MEDIUMRANGEDIST: float32: Min: 8.000000 Max 55.000000.
+Analyzing block type:               CLOSERANGECHANCE: Byte: Min: 0 Max 100 (0x0 to 0x64).
+Analyzing block type:              MAXCROUCHRUNSPEED: float32: Min: 3.000000 Max 8.000000.
+Analyzing block type:                          TIGMY: Unsure...
+Analyzing block type:                   WEAPONRANGE4: float32: Min: 0.000000 Max 1000.000000.
+Analyzing block type:              SLOWMOVEMENTSPEED: float32: Min: 1.000000 Max 5.000000.
+Analyzing block type:                        SPINAZF: float32: Min: 0.000000 Max 1.000000.
+Analyzing block type:                          W_THF: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                    WEAPONNAME4: Unsure...
+Analyzing block type:                       DROWNSND: Unsure...
+Analyzing block type:                        SAGMASS: int32: Min: 0 Max 0.
+Analyzing block type:              NEARBASEBONEINDEX: Byte: Min: 26 Max 255 (0x1A to 0xFF).
+Analyzing block type:                    WEAPONNAME2: Unsure...
+Analyzing block type:                         RSPEED: int32: Min: 0 Max 0.
+Analyzing block type:                            NLP: Unsure...
+Analyzing block type:                  CRITSURRENDER: Byte: Min: 0 Max 3 (0x0 to 0x3).
+Analyzing block type:                         ACTOR1: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                          ACTOR: Unsure...
+Analyzing block type:                  POSITIONZBASE: float32: Min: -1.500000 Max 0.000000.
+Analyzing block type:                 STANDDOWNSTATE: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                  STARTGASSOUND: Unsure...
+Analyzing block type:                    CRITRETREAT: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:          RAPTOR_MAXSTRAFESPEED: float32: Min: 11.000000 Max 11.000000.
+Analyzing block type:             PAINPOISONGROANSND: Unsure...
+Analyzing block type:                       CUCCOVER: Unsure...
+Analyzing block type:                       PATHRAMP: int32: Min: 0 Max 0.
+Analyzing block type:                       CRITFLEE: Byte: Min: 0 Max 10 (0x0 to 0xA).
+Analyzing block type:                   CRITNOCHANGE: Byte: Min: 0 Max 1 (0x0 to 0x1).
+Analyzing block type:                   WEAPONPOINT3: Unsure...
+Analyzing block type:                   EWRELOADTIME: float32: Min: 0.500000 Max 5.000000.
+Analyzing block type:                      CRITCOVER: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                         SMSTEP: float32: Min: 0.000000 Max 1.000000.
+Analyzing block type:             CRITICALTHRESHHOLD: float32: Min: -1.000000 Max 50.000000.
+Analyzing block type:                     DMEXACTRAD: float32: Min: 10.000000 Max 10.000000.
+Analyzing block type:                 ACTOR_DESTRUCT: Unsure...
+Analyzing block type:              SLOWSWIMMINGSPEED: float32: Min: 1.000000 Max 3.000000.
+Analyzing block type:                 NEARBASEYAWMIN: float32: Min: -30.000000 Max -30.000000.
+Analyzing block type:                     POINTVALUE: float32: Min: 0.000000 Max 5.000000.
+Analyzing block type:              FEARFULTHRESHHOLD: float32: Min: -1.000000 Max -1.000000.
+Analyzing block type:                           SKTY: int32: Min: 0 Max 0.
+Analyzing block type:                ATTACKRESETTIME: float32: Min: -1.000000 Max 15.000000.
+Analyzing block type:                     DMIMDAMRAD: float32: Min: 15.000000 Max 15.000000.
+Analyzing block type:                         PSMPOS: float32: Min: -10.000000 Max 40.000000.
+Analyzing block type:               LOGICCOVERCHANCE: Byte: Min: 0 Max 9 (0x0 to 0x9).
+Analyzing block type:                          AD_RT: float32: Min: 0.000000 Max 1.000000.
+Analyzing block type:                     WANTSCOVER: Unsure...
+Analyzing block type:                     EWHOLDDOWN: Unsure...
+Analyzing block type:                   BASEPITCHMIN: float32: Min: -90.000000 Max -90.000000.
+Analyzing block type:                      PATHFIELD: int32: Min: 0 Max 0.
+Analyzing block type:                 ACCESSORYNAME3: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                   LINEARFIELDY: int32: Min: 0 Max 0.
+Analyzing block type:                  MINCOVERSHOTS: Byte: Min: 1 Max 1 (0x1 to 0x1).
+Analyzing block type:                   DROPPEDSOUND: Unsure...
+Analyzing block type:                 CLIMBENDHEIGHT: float32: Min: 1.000000 Max 1.850000.
+Analyzing block type:                 XROTATIONSPEED: float32: Min: 60.000000 Max 60.000000.
+Analyzing block type:              HORZCLIMBINGSPEED: float32: Min: 2.000000 Max 2.000000.
+Analyzing block type:                       SPINMAXZ: float32: Min: 0.000000 Max 20.000000.
+Analyzing block type:                    HEADYAWAXIS: Byte: Min: 3 Max 5 (0x3 to 0x5).
+Analyzing block type:                      ALWAYSRUN: Unsure...
+Analyzing block type:                         DANCES: Unsure...
+Analyzing block type:                       CANCLIMB: Unsure...
+Analyzing block type:                  RAGELOOPSOUND: Unsure...
+Analyzing block type:                          A_SHH: int32: Min: 0 Max 0.
+Analyzing block type:                 CLOSERANGEDIST: float32: Min: 1.000000 Max 200.000000.
+Analyzing block type:                   PT_CAM3CROLL: float32: Min: 0.150000 Max 0.250000.
+Analyzing block type:                           DPOW: float32: Min: 1.000000 Max 1.000000.
+Analyzing block type:    BULLET_BIRDMISSILE_VELOCITY: float32: Min: 200.000000 Max 200.000000.
+Analyzing block type:                   INITIALALERT: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                  REGIONTARGETS: Unsure...
+Analyzing block type:                  UPGRADE2SLOT0: Unsure...
+Analyzing block type:                   TIPBONEINDEX: Byte: Min: 255 Max 255 (0xFF to 0xFF).
+Analyzing block type:                  MOVEMENTSPEED: float32: Min: 1.500000 Max 41.000000.
+Analyzing block type:                        GIBPART: Unsure...
+Analyzing block type:                   IGNOREPLAYER: Unsure...
+Analyzing block type:                 COVER_MAXRANGE: float32: Min: 9999.000000 Max 9999.000000.
+Analyzing block type:                     BACKPYCORR: float32: Min: 0.000000 Max 90.000000.
+Analyzing block type:                      DROPSOUND: Unsure...
+Analyzing block type:                    USEPRIMARY2: Unsure...
+Analyzing block type:                 SECONDARYSOUND: Unsure...
+Analyzing block type:                       SPINMINY: int32: Min: 0 Max 0.
+Analyzing block type:                      VISCOSITY: float32: Min: 0.010000 Max 0.010000.
+Analyzing block type:                 EWSECFLASHNAME: Unsure...
+Analyzing block type:                  EWSECPARTNAME: Unsure...
+Analyzing block type:                           TRNS: Unsure...
+Analyzing block type:                         FSPEED: int32: Min: 0 Max 0.
+Analyzing block type:                       SNIPEFOV: float32: Min: 18.000000 Max 18.000000.
+Analyzing block type:                   RESETWHENDIE: Unsure...
+Analyzing block type:                    USEPRIMARY3: Unsure...
+Analyzing block type:                     EWMAXFIRES: Byte: Min: 1 Max 12 (0x1 to 0xC).
+Analyzing block type:                       ISRAPTOR: Unsure...
+Analyzing block type:                       BOUNCENP: int32: Min: 0 Max 0.
+Analyzing block type:                   LINEARFIELDX: int32: Min: 0 Max 0.
+Analyzing block type:                     AXIALRAMPX: int32: Min: 0 Max 0.
+Analyzing block type:                     EWMINFIRES: Byte: Min: 1 Max 7 (0x1 to 0x7).
+Analyzing block type:                           RKBY: int32: Min: 0 Max 0.
+Analyzing block type:                    STEPOUT_DIR: Byte: Min: 0 Max 3 (0x0 to 0x3).
+Analyzing block type:                   PRIMARYSOUND: Unsure...
+Analyzing block type:                CROUCHEYEHEIGHT: float32: Min: 0.400000 Max 1.200000.
+Analyzing block type:                   TURNINGSPEED: float32: Min: 20.000000 Max 720.000000.
+Analyzing block type:                   WEAPONPOINT4: Unsure...
+Analyzing block type:                    SIGHTRADIUS: float32: Min: 0.000000 Max 3000.000000.
+Analyzing block type:                     PATHINRAMP: int32: Min: 0 Max 0.
+Analyzing block type:                       GIBDEATH: Unsure...
+Analyzing block type:                  HEADBONEINDEX: Byte: Min: 5 Max 255 (0x5 to 0xFF).
+Analyzing block type:                  AMMOUPG2SLOT3: Byte: Min: 0 Max 1 (0x0 to 0x1).
+Analyzing block type:                    EWFLASHNAME: Unsure...
+Analyzing block type:                     PT_CAMLLAL: float32: Min: 10.000000 Max 10.000000.
+Analyzing block type:                  EWALTPARTNAME: Unsure...
+Analyzing block type:                         SPINTI: int32: Min: 0 Max 0.
+Analyzing block type:                   LINEAREFFECT: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                     COVER_TYPE: Byte: Min: 0 Max 1 (0x0 to 0x1).
+Analyzing block type:        AMMOUSEDPERSHOTUPGRADE2: Byte: Min: 1 Max 1 (0x1 to 0x1).
+Analyzing block type:                     DANCESPEED: float32: Min: 1.000000 Max 1.000000.
+Analyzing block type:                   NEARBASEXFIX: float32: Min: -90.000000 Max -90.000000.
+Analyzing block type:                           SPGF: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                        SAGTYPE: Byte: Min: 0 Max 1 (0x0 to 0x1).
+Analyzing block type:                           MASS: float32: Min: -1.000000 Max 500000.000000.
+Analyzing block type:                     EWPARTNAME: Unsure...
+Analyzing block type:                           W_FC: float32: Min: 0.000000 Max 0.000000.
+Analyzing block type:                 COVER_MINRANGE: float32: Min: 8.000000 Max 8.000000.
+Analyzing block type:                     LINK_LISTS: Unsure...
+Analyzing block type:                    MARKER_TYPE: Byte: Min: 0 Max 6 (0x0 to 0x6).
+Analyzing block type:                  FLAREPARTICLE: Unsure...
+Analyzing block type:              LOGICATTACKCHANCE: Byte: Min: 0 Max 10 (0x0 to 0xA).
+Analyzing block type:                      CRITPRONE: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                       PSMDECEL: float32: Min: 0.150000 Max 0.150000.
+Analyzing block type:              SPAWNACTOR2CHANCE: Byte: Min: 0 Max 100 (0x0 to 0x64).
+Analyzing block type:                ACCESSORYPOINT3: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                 ACCESSORYNAME1: Unsure...
+Analyzing block type:                      ALARMTIME: float32: Min: 20.000000 Max 20.000000.
+Analyzing block type:                   WEAPONRANGE2: float32: Min: 0.000000 Max 40.000000.
+Analyzing block type:                ACCESSORYPOINT1: Unsure...
+Analyzing block type:                  SHIELDONSOUND: Unsure...
+Analyzing block type:                    BASEYAWAXIS: Byte: Min: 3 Max 5 (0x3 to 0x5).
+Analyzing block type:                     CONEVISION: Unsure...
+Analyzing block type:                     HASPTARGET: Unsure...
+Analyzing block type:                         MPSSCA: float32: Min: 5.000000 Max 10.000000.
+Analyzing block type:              MEDIUMRANGECHANCE: Byte: Min: 0 Max 90 (0x0 to 0x5A).
+Analyzing block type:                     LIGHTCOLOR: Unsure...
+Analyzing block type:                    TIPPITCHMIN: float32: Min: -30.000000 Max -30.000000.
+Analyzing block type:                         MPSNEA: float32: Min: 10.000000 Max 10.000000.
+Analyzing block type:                           AU_D: float32: Min: -1.000000 Max 1000.000000.
+Analyzing block type:                   BASEPITCHMAX: float32: Min: 90.000000 Max 90.000000.
+Analyzing block type:                           W_BA: int32: Min: 0 Max 0.
+Analyzing block type:                   GAMINNUMBERS: Byte: Min: 0 Max 3 (0x0 to 0x3).
+Analyzing block type:                          MODES: Unsure...
+Analyzing block type:                           XFOV: float32: Min: 60.000000 Max 60.000000.
+Analyzing block type:                    PLANARRAMPZ: int32: Min: 0 Max 0.
+Analyzing block type:                  SPAWNINTERVAL: float32: Min: 10.000000 Max 10.000000.
+Analyzing block type:                          W_DSX: int32: Min: 0 Max 0.
+Analyzing block type:                    INITIALMODE: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                       BOUNCEY2: int32: Min: 0 Max 0.
+Analyzing block type:                  HEADPITCHCORR: float32: Min: 0.000000 Max 30.000000.
+Analyzing block type:              FASTSWIMMINGSPEED: float32: Min: 2.000000 Max 5.000000.
+Analyzing block type:                        SPINSTX: float32: Min: 0.000000 Max 1000.000000.
+Analyzing block type:                        BOUNCEY: float32: Min: 0.000000 Max 25.000000.
+Analyzing block type:                            C_B: float32: Min: 5000.000000 Max 5000.000000.
+Analyzing block type:                           SMJD: int32: Min: 0 Max 0.
+Analyzing block type:                BOUNCEMAXSPEEDX: int32: Min: 0 Max 0.
+Analyzing block type:                       MPSONOFF: Unsure...
+Analyzing block type:                       COLLIDES: Unsure...
+Analyzing block type:                    CLIMB_SPEED: float32: Min: 8.000000 Max 8.000000.
+Analyzing block type:                            IPS: Byte: Min: 255 Max 255 (0xFF to 0xFF).
+Analyzing block type:                   PLANARFIELDZ: int32: Min: 0 Max 0.
+Analyzing block type:                  AMMOUPG2SLOT0: Unsure...
+Analyzing block type:                       AIRADIUS: float32: Min: 0.100000 Max 7.500000.
+Analyzing block type:           STARTSOFFWITHWEAPON4: Unsure...
+Analyzing block type:                     HASSTARGET: Unsure...
+Analyzing block type:                         A_FEXS: float32: Min: 0.000000 Max 1.000000.
+Analyzing block type:                       ALERTAIS: Unsure...
+Analyzing block type:                        FALLOFF: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                LONGRANGECHANCE: Byte: Min: 0 Max 100 (0x0 to 0x64).
+Analyzing block type:                          HOTPS: Unsure...
+Analyzing block type:                    PICKUPSOUND: Unsure...
+Analyzing block type:                BOUNCEMAXSPEEDY: int32: Min: 0 Max 0.
+Analyzing block type:                      MINDAMAGE: float32: Min: 0.000000 Max 10000.000000.
+Analyzing block type:                     BASEWOBBLE: float32: Min: 4.000000 Max 4.000000.
+Analyzing block type:                         STCLSN: Unsure...
+Analyzing block type:  LEVELEXITDESTINATIONLEVELNAME: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                           DDIS: float32: Min: 5.000000 Max 5.000000.
+Analyzing block type:            SPAWNACTOR3VELOCITY: float32: Min: 3.000000 Max 3.000000.
+Analyzing block type:                   PAINHEAVYSND: Unsure...
+Analyzing block type:               NEARBASEPITCHMAX: float32: Min: 20.000000 Max 20.000000.
+Analyzing block type:                     BACKYAWMIN: float32: Min: -180.000000 Max 0.000000.
+Analyzing block type:                  UPGRADE1SLOT6: Unsure...
+Analyzing block type:                      USEREGION: Unsure...
+Analyzing block type:                           DNUM: Byte: Min: 16 Max 16 (0x10 to 0x10).
+Analyzing block type:                          A_TDK: Unsure...
+Analyzing block type:               BOUNCEMAXSPEEDY2: int32: Min: 0 Max 0.
+Analyzing block type:             WATERSURFACEBADSND: Unsure...
+Analyzing block type:                     ISUPGRADE2: Unsure...
+Analyzing block type:              PRONEATTACKCHANCE: Byte: Min: 0 Max 50 (0x0 to 0x32).
+Analyzing block type:                          W_FSY: float32: Min: 1.000000 Max 1.000000.
+Analyzing block type:                         WPTIME: float32: Min: -1.000000 Max -1.000000.
+Analyzing block type:                           DLIF: float32: Min: 2.000000 Max 10.000000.
+Analyzing block type:                         STTYPE: Byte: Min: 0 Max 1 (0x0 to 0x1).
+Analyzing block type:               BOUNCEMAXSPEEDX2: int32: Min: 0 Max 0.
+Analyzing block type:                       BOUNCEX2: int32: Min: 0 Max 0.
+Analyzing block type:                 BOUNCEADJUSTY2: float32: Min: 1.000000 Max 1.000000.
+Analyzing block type:                 CELEBRATESOUND: Unsure...
+Analyzing block type:                DEADPLAYERACTOR: Unsure...
+Analyzing block type:                    NEARTIPYFIX: float32: Min: -90.000000 Max 0.000000.
+Analyzing block type:                        GDBNAME: Unsure...
+Analyzing block type:                 DISEMBARKDELAY: float32: Min: 0.000000 Max 1.000000.
+Analyzing block type:                      PT_FREDGR: float32: Min: 0.100000 Max 0.100000.
+Analyzing block type:                       GDTRNSPD: float32: Min: 240.000000 Max 240.000000.
+Analyzing block type:                    TUROKAITYPE: Byte: Min: 0 Max 6 (0x0 to 0x6).
+Analyzing block type:                         SAWMDT: float32: Min: 5.000000 Max 5.000000.
+Analyzing block type:                 BOUNCEMAXSPEED: int32: Min: 0 Max 0.
+Analyzing block type:                           DCOL: Unsure...
+Analyzing block type:                          A_HII: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                  BOUNCEADJUSTY: float32: Min: 0.000000 Max 1.000000.
+Analyzing block type:                REGENERATESOUND: Unsure...
+Analyzing block type:                         SPINIY: float32: Min: 0.000000 Max 100.000000.
+Analyzing block type:                ACTOR_MESH_AXIS: Unsure...
+Analyzing block type:             SHALLOWWATERHEIGHT: float32: Min: 0.050000 Max 2.000000.
+Analyzing block type:                     TIPTORQUEX: float32: Min: 0.000000 Max 100.000000.
+Analyzing block type:                        BOUNCEZ: int32: Min: 0 Max 0.
+Analyzing block type:                         RDELAY: float32: Min: -1.000000 Max 20.000000.
+Analyzing block type:                     MAXBOWAMMO: Byte: Min: 0 Max 20 (0x0 to 0x14).
+Analyzing block type:                          GDPDN: float32: Min: 2.000000 Max 2.000000.
+Analyzing block type:                       MAXTIPZ2: int32: Min: 0 Max 0.
+Analyzing block type:                  BOUNCEADJUSTZ: float32: Min: 1.000000 Max 1.000000.
+Analyzing block type:           USABLEUNDERWATERBASE: Unsure...
+Analyzing block type:                       TIPTIMEX: float32: Min: 0.000000 Max 128.000000.
+Analyzing block type:                   ACTORCHANCE1: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                EWSECRELOADTIME: float32: Min: 0.000000 Max 2.500000.
+Analyzing block type:                          GDPUP: float32: Min: 50.000000 Max 50.000000.
+Analyzing block type:                     BOUNCEKIND: Byte: Min: 0 Max 2 (0x0 to 0x2).
+Analyzing block type:               NEARBASEPITCHMIN: float32: Min: -20.000000 Max -20.000000.
+Analyzing block type:                   PLANARFIELDX: int32: Min: 0 Max 0.
+Analyzing block type:             WEAPONTYPEUPGRADE2: Byte: Min: 0 Max 3 (0x0 to 0x3).
+Analyzing block type:                          AD_TY: Byte: Min: 0 Max 56 (0x0 to 0x38).
+Analyzing block type:                   INITIALSTATE: Unsure...
+Analyzing block type:                   SLIDESONPATH: Unsure...
+Analyzing block type:             PATHSLIDEWARPSBACK: Unsure...
+Analyzing block type:                       PATHPUSH: float32: Min: -1.000000 Max 0.000000.
+Analyzing block type:                           AHRD: float32: Min: 10.000000 Max 10.000000.
+Analyzing block type:                   PATHFRICTION: int32: Min: 0 Max 0.
+Analyzing block type:                       RETURNED: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                  FLYINGPERTURB: Byte: Min: 0 Max 3 (0x0 to 0x3).
+Analyzing block type:                       SPINMAXY: int32: Min: 0 Max 0.
+Analyzing block type:               NEARTIPBONEINDEX: Byte: Min: 27 Max 255 (0x1B to 0xFF).
+Analyzing block type:                     DISEMBARKS: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:        STERACOSAUR_MAXRUNSPEED: float32: Min: 9.000000 Max 14.000000.
+Analyzing block type:                    SOUNDRADIUS: float32: Min: 0.000000 Max 3000.000000.
+Analyzing block type:                      INVISIBLE: Unsure...
+Analyzing block type:                 EXPLOSIVEARROW: Unsure...
+Analyzing block type:                          AP_EC: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                          SPINY: float32: Min: 0.000000 Max 3000.000000.
+Analyzing block type:                   PT_CAMLYLASW: float32: Min: 1.000000 Max 4.000000.
+Analyzing block type:                          AD_ED: float32: Min: 0.000000 Max 1000.000000.
+Analyzing block type:                    EMBARKDELAY: float32: Min: 0.000000 Max 2.000000.
+Analyzing block type:                        TIPZFIX: float32: Min: -90.000000 Max -90.000000.
+Analyzing block type:                       PSMACCEL: float32: Min: 0.150000 Max 0.150000.
+Analyzing block type:                         TIPRDZ: float32: Min: 0.000000 Max 1.000000.
+Analyzing block type:                        SPINAYL: int32: Min: 0 Max 0.
+Analyzing block type:                  HEADPITCHAXIS: Byte: Min: 2 Max 4 (0x2 to 0x4).
+Analyzing block type:                FALLINGSPLATSND: Unsure...
+Analyzing block type:                           HIDE: float32: Min: -1.000000 Max 0.000000.
+Analyzing block type:                           AU_F: Byte: Min: 0 Max 2 (0x0 to 0x2).
+Analyzing block type:              VERTCLIMBINGSPEED: float32: Min: 2.000000 Max 2.000000.
+Analyzing block type:                       RECHARGE: int32: Min: 0 Max 0.
+Analyzing block type:                          V_MOV: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                         TIPRTZ: float32: Min: 0.000000 Max 90.000000.
+Analyzing block type:                         HSTIME: int32: Min: 0 Max 0.
+Analyzing block type:                           R_TT: Unsure...
+Analyzing block type:                       SPOLNAME: Unsure...
+Analyzing block type:                    TIPPITCHMAX: float32: Min: 30.000000 Max 30.000000.
+Analyzing block type:                       TIPTIMEZ: float32: Min: 0.000000 Max 1.000000.
+Analyzing block type:                         W_SUHI: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                  BOUNCEADJUSTX: float32: Min: 1.000000 Max 1.000000.
+Analyzing block type:                           RKTP: float32: Min: 1.000000 Max 1.000000.
+Analyzing block type:                 ACCESSORYNAME2: Unsure...
+Analyzing block type:                         GRND_Y: float32: Min: -12.469840 Max 0.389170.
+Analyzing block type:                        OFFSETY: float32: Min: 0.000000 Max 1.000000.
+Analyzing block type:            SPAWNACTOR4VELOCITY: float32: Min: 3.000000 Max 3.000000.
+Analyzing block type:                       MAXTIPZ1: int32: Min: 0 Max 0.
+Analyzing block type:                          SAGRD: int32: Min: 0 Max 0.
+Analyzing block type:                      TIPYAWMAX: float32: Min: 30.000000 Max 30.000000.
+Analyzing block type:                           W_SP: Byte: Min: 0 Max 1 (0x0 to 0x1).
+Analyzing block type:                   PT_CAMLYEYSW: float32: Min: 1.000000 Max 4.000000.
+Analyzing block type:                        TIPDOMX: Unsure...
+Analyzing block type:                  AMMOUPG0SLOT2: Unsure...
+Analyzing block type:                          WTIME: float32: Min: -1.000000 Max -1.000000.
+Analyzing block type:                 BOUNCEADJUSTZ2: float32: Min: 1.000000 Max 1.000000.
+Analyzing block type:                    NEARTIPXFIX: float32: Min: -90.000000 Max -90.000000.
+Analyzing block type:                        DENSITY: float32: Min: 0.000000 Max 100.000000.
+Analyzing block type:                    LEASHRADIUS: float32: Min: 0.000000 Max 50.000000.
+Analyzing block type:           STERACOSAUR_DASHTIME: float32: Min: 3.000000 Max 3.000000.
+Analyzing block type:                    BOUNCEKIND2: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                         PSPEED: int32: Min: 0 Max 0.
+Analyzing block type:                  AMMOUPG0SLOT6: Unsure...
+Analyzing block type:                          A_SHW: int32: Min: 0 Max 0.
+Analyzing block type:                           DSTA: Unsure...
+Analyzing block type:                       MAXTIPX2: int32: Min: 0 Max 0.
+Analyzing block type:                       MAXTIPX1: float32: Min: 0.000000 Max 3.000000.
+Analyzing block type:                    COVERRADIUS: float32: Min: 40.000000 Max 60.000000.
+Analyzing block type:                       TIPTYPEX: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:               CANBEGRAVITYHELD: Unsure...
+Analyzing block type:                           DTYP: Byte: Min: 0 Max 1 (0x0 to 0x1).
+Analyzing block type:                        SAGMINS: int32: Min: 0 Max 0.
+Analyzing block type:                           DSIZ: float32: Min: 5.000000 Max 5.000000.
+Analyzing block type:              PREFERREDWEAPON01: Byte: Min: 4 Max 4 (0x4 to 0x4).
+Analyzing block type:                       PT_ACDAM: float32: Min: 10.000000 Max 10.000000.
+Analyzing block type:                      SPINMAXSZ: int32: Min: 0 Max 0.
+Analyzing block type:                 MAXSTRAFESPEED: float32: Min: 8.000000 Max 8.000000.
+Analyzing block type:                         STSCNT: float32: Min: 2.000000 Max 5.000000.
+Analyzing block type:                   PT_CAMLCROLL: float32: Min: 0.150000 Max 0.650000.
+Analyzing block type:                        SPINFTX: float32: Min: 0.000000 Max 10.000000.
+Analyzing block type:                  AMMOUPG0SLOT5: Unsure...
+Analyzing block type:        DAMAGELOGICCHANGEAMOUNT: float32: Min: -1.000000 Max 1.000000.
+Analyzing block type:              PATHRELEASE1SPEED: float32: Min: -1.000000 Max 0.000000.
+Analyzing block type:                       BOUNCEES: Byte: Min: 0 Max 8 (0x0 to 0x8).
+Analyzing block type:        TWOHANDEDWEAPONUPGRADE2: Unsure...
+Analyzing block type:              ACTOR_MESH_BOUNDS: Unsure...
+Analyzing block type:                    USEPRIMARY4: Unsure...
+Analyzing block type:                      PT_WEAMSD: float32: Min: 1.000000 Max 1.000000.
+Analyzing block type:                     BACKYAWMAX: float32: Min: 0.000000 Max 180.000000.
+Analyzing block type:                       TIPTYPEZ: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                        CANSWIM: Unsure...
+Analyzing block type:                     ISUPGRADE1: Unsure...
+Analyzing block type:           LOSTCONTACTRESETTIME: float32: Min: -1.000000 Max 15.000000.
+Analyzing block type:                         TIPRTX: float32: Min: 0.000000 Max 1.000000.
+Analyzing block type:                          A_KSK: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                  EWSECMAXFIRES: Byte: Min: 1 Max 1 (0x1 to 0x1).
+Analyzing block type:                        SPINAZL: float32: Min: 0.000000 Max 45.000000.
+Analyzing block type:                          SAGRT: float32: Min: 0.000000 Max 1.500000.
+Analyzing block type:                    ALARMRADIUS: int32: Min: 0 Max 0.
+Analyzing block type:                         STADEF: Unsure...
+Analyzing block type:                        SAGTIME: float32: Min: 0.000000 Max 0.800000.
+Analyzing block type:                  CIRCULARRAMPZ: int32: Min: 0 Max 0.
+Analyzing block type:                   WEAPONRANGE3: float32: Min: 0.000000 Max 1000.000000.
+Analyzing block type:                         MAXSAG: float32: Min: 0.000000 Max 0.300000.
+Analyzing block type:     USABLEWHENCLIMBINGUPGRADE1: Unsure...
+Analyzing block type:                     ALERTSTATE: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:              SPAWNSFOLLOWSPATH: Unsure...
+Analyzing block type:                 MINASSAULTDIST: float32: Min: 6.000000 Max 6.000000.
+Analyzing block type:                         SPINAZ: float32: Min: 0.000000 Max 180.000000.
+Analyzing block type:                       SPINMINZ: float32: Min: 0.000000 Max 20.000000.
+Analyzing block type:                     PATHEFFECT: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                           TERR: float32: Min: 0.000000 Max 10.000000.
+Analyzing block type:                        SPINAZT: Byte: Min: 0 Max 2 (0x0 to 0x2).
+Analyzing block type:            AMMOPERCLIPUPGRADE1: Byte: Min: 5 Max 15 (0x5 to 0xF).
+Analyzing block type:                      MAXHEALTH: Unsure...
+Analyzing block type:                NEARBASEYAWAXIS: Byte: Min: 3 Max 5 (0x3 to 0x5).
+Analyzing block type:                        SPINAXL: float32: Min: 0.000000 Max 45.000000.
+Analyzing block type:                    WEAPONNAME3: Unsure...
+Analyzing block type:                           SMJH: int32: Min: 0 Max 0.
+Analyzing block type:                        SPINAXT: Byte: Min: 0 Max 2 (0x0 to 0x2).
+Analyzing block type:                         VSPEED: int32: Min: 0 Max 0.
+Analyzing block type:                         STFRAD: int32: Min: 0 Max 0.
+Analyzing block type:           STARTSOFFWITHWEAPON7: Unsure...
+Analyzing block type:                   TIPPITCHCORR: int32: Min: 0 Max 0.
+Analyzing block type:                        SPINFTZ: float32: Min: 0.000000 Max 10.000000.
+Analyzing block type:              CINEMATICPRIORITY: Unsure...
+Analyzing block type:                   WEAPONPOINT5: Unsure...
+Analyzing block type:        MUZZLERIDINGYFACTORBASE: float32: Min: 0.000000 Max 0.100000.
+Analyzing block type:                   CANDISMEMBER: Unsure...
+Analyzing block type:                ACTIVESPAWNSPS2: Byte: Min: 255 Max 255 (0xFF to 0xFF).
+Analyzing block type:                        IGNORES: Unsure...
+Analyzing block type:                        SPINCEY: int32: Min: 0 Max 0.
+Analyzing block type:                         LSPEED: int32: Min: 0 Max 0.
+Analyzing block type:                        SPINSTY: float32: Min: 0.000000 Max 300.000000.
+Analyzing block type:                    AXIALFIELDX: int32: Min: 0 Max 0.
+Analyzing block type:                          AD_DK: Byte: Min: 0 Max 9 (0x0 to 0x9).
+Analyzing block type:                 BOUNCEADJUSTX2: float32: Min: 1.000000 Max 1.000000.
+Analyzing block type:     USABLEWHENCLIMBINGUPGRADE2: Unsure...
+Analyzing block type:                  PT_CAMLYLAOFF: float32: Min: 4.000000 Max 4.000000.
+Analyzing block type:                         A_SOFF: Unsure...
+Analyzing block type:                       PT_LPWAV: float32: Min: 45.000000 Max 55.000000.
+Analyzing block type:                      SPINMAXSX: float32: Min: 0.000000 Max 180.000000.
+Analyzing block type:               LEDGESHIMMYSPEED: float32: Min: 0.250000 Max 0.250000.
+Analyzing block type:                  MAXCOVERSHOTS: Byte: Min: 1 Max 5 (0x1 to 0x5).
+Analyzing block type:                 SHIELDOFFSOUND: Unsure...
+Analyzing block type:                  PATHENDBOUNCE: int32: Min: 0 Max 0.
+Analyzing block type:                       SXZANGLE: float32: Min: 0.000000 Max 180.000000.
+Analyzing block type:                          SPINZ: int32: Min: 0 Max 0.
+Analyzing block type:               SPAWNINTERVALPS2: float32: Min: 10.000000 Max 10.000000.
+Analyzing block type:                  AMMOUPG0SLOT0: Unsure...
+Analyzing block type:                    AIMATHEIGHT: float32: Min: -5.000000 Max 3.500000.
+Analyzing block type:                LEVELEXITHEIGHT: float32: Min: 2.000000 Max 2.000000.
+Analyzing block type:                          SPINX: int32: Min: 0 Max 0.
+Analyzing block type:                  UPGRADE2SLOT7: Unsure...
+Analyzing block type:                         STFBNC: float32: Min: 0.000000 Max 0.250000.
+Analyzing block type:                  AMMOUPG1SLOT2: Unsure...
+Analyzing block type:                    DESCRIPTION: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                     PITCHSPEED: float32: Min: 10.000000 Max 180.000000.
+Analyzing block type:                      TURNSPEED: float32: Min: 240.000000 Max 240.000000.
+Analyzing block type:                   WEAPONRANGE5: float32: Min: 0.000000 Max 40.000000.
+Analyzing block type:                       INERTIAZ: int32: Min: 0 Max 0.
+Analyzing block type:                         SMFALL: int32: Min: 0 Max 0.
+Analyzing block type:                 GRAVITYFACTORZ: float32: Min: 1.000000 Max 1.000000.
+Analyzing block type:                  AMMOUPG1SLOT5: Unsure...
+Analyzing block type:                   ACTORCHANCE0: Byte: Min: 0 Max 1 (0x0 to 0x1).
+Analyzing block type:                          A_KSF: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                     PT_CAM1YPB: float32: Min: 1.000000 Max 1.500000.
+Analyzing block type:                         W_SUHF: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                          A_SON: Unsure...
+Analyzing block type:              SPAWNACTOR5CHANCE: Byte: Min: 0 Max 100 (0x0 to 0x64).
+Analyzing block type:               NEARTIPPITCHAXIS: Byte: Min: 3 Max 4 (0x3 to 0x4).
+Analyzing block type:                          DMASS: float32: Min: 30.000000 Max 30.000000.
+Analyzing block type:                         SMWALL: float32: Min: 0.000000 Max 3.000000.
+Analyzing block type:                  AMMOUPG1SLOT1: Byte: Min: 0 Max 1 (0x0 to 0x1).
+Analyzing block type:                         BSPEED: int32: Min: 0 Max 0.
+Analyzing block type:                  AMMOUPG1SLOT3: Byte: Min: 0 Max 5 (0x0 to 0x5).
+Analyzing block type:                        SPINFTY: float32: Min: 0.000000 Max 10.000000.
+Analyzing block type:                      RIGIDBODY: Unsure...
+Analyzing block type:                           INTE: int32: Min: 0 Max 0.
+Analyzing block type:                        DUMMIES: Unsure...
+Analyzing block type:                         STSSPD: float32: Min: 0.200000 Max 1.500000.
+Analyzing block type:                         SPINIX: float32: Min: 0.000000 Max 200.000000.
+Analyzing block type:                   PT_CAMLCHLAG: Byte: Min: 10 Max 10 (0xA to 0xA).
+Analyzing block type:    MUZZLERIDINGYFACTORUPGRADE1: float32: Min: 0.100000 Max 0.100000.
+Analyzing block type:                       BOUNCEZ2: int32: Min: 0 Max 0.
+Analyzing block type:                       FRICTION: float32: Min: 0.000000 Max 10.000000.
+Analyzing block type:                  BACKPITCHAXIS: Byte: Min: 2 Max 4 (0x2 to 0x4).
+Analyzing block type:                         A_FENM: float32: Min: 0.000000 Max 1.000000.
+Analyzing block type:                        TOUCHES: Unsure...
+Analyzing block type:                          AP_DC: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                           HOLD: float32: Min: -1.000000 Max 0.000000.
+Analyzing block type:                           A_MT: Unsure...
+Analyzing block type:                           SNA2: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                   CRITKAMIKAZE: Byte: Min: 0 Max 90 (0x0 to 0x5A).
+Analyzing block type:                    PT_WEAMSDMG: float32: Min: 100.000000 Max 100.000000.
+Analyzing block type:                        SPINCEZ: float32: Min: 0.000000 Max 5.000000.
+Analyzing block type:                           A_KS: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                NEARTIPPITCHMIN: float32: Min: -30.000000 Max -20.000000.
+Analyzing block type:                           AU_A: float32: Min: 0.000000 Max 45.000000.
+Analyzing block type:                        LEASHED: Unsure...
+Analyzing block type:                          AD_TD: float32: Min: 0.000000 Max 1000.000000.
+Analyzing block type:                            RZR: float32: Min: 3.000000 Max 3.000000.
+Analyzing block type:                            IST: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                      JMPLNDSND: Unsure...
+Analyzing block type:                          A_RNF: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                          A_HIF: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                          A_ALP: float32: Min: 0.500000 Max 1.000000.
+Analyzing block type:                          A_NDD: float32: Min: -1.000000 Max 1000.000000.
+Analyzing block type:               BOUNCEMAXSPEEDZ2: int32: Min: 0 Max 0.
+Analyzing block type:                  AMMOUPG1SLOT7: Unsure...
+Analyzing block type:                        VERSION: float32: Min: 0.000000 Max 1.250000.
+Analyzing block type:                     PT_CAMLFOV: float32: Min: 60.000000 Max 60.000000.
+Analyzing block type:                   HEADPITCHMIN: float32: Min: -90.000000 Max 0.000000.
+Analyzing block type:                BOUNCEMAXSPEEDZ: int32: Min: 0 Max 0.
+Analyzing block type:                           A_GN: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                         SPINAX: float32: Min: 0.000000 Max 180.000000.
+Analyzing block type:                    NEARTIPZFIX: float32: Min: -90.000000 Max -90.000000.
+Analyzing block type:              POSITIONYUPGRADE1: int32: Min: 0 Max 0.
+Analyzing block type:                        GRAVITY: float32: Min: 0.000000 Max 5.000000.
+Analyzing block type:                     NGFIRENAME: Unsure...
+Analyzing block type:                         STDFAN: int32: Min: 0 Max 0.
+Analyzing block type:                      SCALEBASE: float32: Min: 1.000000 Max 3.000000.
+Analyzing block type:               BOUNCERELATIVETO: Byte: Min: 0 Max 1 (0x0 to 0x1).
+Analyzing block type:               PREFERREDPICKUP5: Byte: Min: 0 Max 0 (0x0 to 0x0).
+Analyzing block type:                     PT_FRSDACC: float32: Min: 1.000000 Max 2.000000.
+Analyzing block type:                          A_MDD: float32: Min: -1.000000 Max 1000.000000.
+Analyzing block type:                   STANDDOWNAIS: Unsure...
+Analyzing block type:                        EMBARKS: Byte: Min: 0 Max 1 (0x0 to 0x1).
+Analyzing block type:                           ESZR: float32: Min: 20.000000 Max 20.000000.
+Analyzing block type:          STERACOSAUR_TURNSPEED: float32: Min: 60.000000 Max 120.000000.
+Analyzing block type:                   COVER_RADIUS: float32: Min: 0.000000 Max 4.000000.
+Analyzing block type:                       SPINMINX: float32: Min: 0.000000 Max 100.000000.
+Analyzing block type:                           TYPE: Unsure...
+Analyzing block type:                          A_SHS: int32: Min: 0 Max 0.
+Analyzing block type:                   DEATHLONGSND: Unsure...
+Analyzing block type:                           DEFT: Unsure...
